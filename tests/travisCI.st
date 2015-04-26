@@ -8,12 +8,12 @@ gitPath := (Smalltalk at: #'FileDirectory' ifAbsent: [  ])
 
 Metacello new
   configuration: 'SwaLint';
-  repository: 'filetree://', gitPath, '/SwaLint/packages';
+  repository: 'filetree://', gitPath, '/SWT15-Project-04/packages';
   get.
 
 Metacello new
   configuration: 'SwaLint';
-  repository: 'filetree://', gitPath, '/SwaLint/packages';
+  repository: 'filetree://', gitPath, '/SWT15-Project-04/packages';
   load: 'TravisCI'.
 
 "Run the tests"
