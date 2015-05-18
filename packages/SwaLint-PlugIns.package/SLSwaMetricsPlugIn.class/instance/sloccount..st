@@ -1,6 +1,8 @@
 tests
 sloccount: aSLSystemTestObject
 
+	<name: 'CountLines' description: 'counts lines'>
+
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult:
 		(aSLSystemTestObject methods
