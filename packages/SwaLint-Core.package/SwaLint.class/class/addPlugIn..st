@@ -4,6 +4,6 @@ addPlugIn: aPlugInClass
 
 	aPlugInClass isInstalled ifFalse: [^ self].
 	Transcript show: aPlugInClass offeredTestsNew asString.
-	Transcript cr.
+	"Transcript cr."
 	aPlugInClass offeredTestsNew do: [ :test |
 		self addTest: test].

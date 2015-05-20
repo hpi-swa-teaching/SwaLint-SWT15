@@ -1,7 +1,10 @@
 tests
 sloccount: aSLSystemTestObject
 
-	<name: 'CountLines' description: 'counts lines'>
+	<SLTestName: 'CountLines' 
+	Description: 'Counts overall lines'>
+	<SLTestHidden: false 
+	LongRuntime: true>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult:
