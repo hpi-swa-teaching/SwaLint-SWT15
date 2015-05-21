@@ -2,8 +2,6 @@ test running
 runTestMethodOf: aTest on: aSLTestObject
 	"Get the method selector of the test and call the method if possible."
 
-	Transcript show: aTest method. 
-
 	self class methodDict at: aTest method ifPresent: [ :method |	
 		^ self withArgs:
 			((method numArgs = 1)

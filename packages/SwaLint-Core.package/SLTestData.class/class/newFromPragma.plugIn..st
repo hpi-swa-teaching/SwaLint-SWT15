@@ -1,8 +1,9 @@
 instance creation
 newFromPragma: aPragma plugIn: aSLPlugInClass
 
-	^ self newFromDefault
-		self symbol: aPragma selector;
+	^self newFromDefault
+		symbol: aPragma selector;
 		method: aPragma selector;
+		category: aSLPlugInClass defaultCategory;
 		plugIn: aSLPlugInClass;
 		addDataFromPragma: aPragma.

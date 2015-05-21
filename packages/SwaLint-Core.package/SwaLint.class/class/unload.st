@@ -7,4 +7,4 @@ unload
 		unregisterInWorldMenu;
 		tests: nil;
 		categories: nil.
-	Smalltalk garbageCollect.
+
