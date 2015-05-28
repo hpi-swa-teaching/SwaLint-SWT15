@@ -1,8 +1,8 @@
 method tests
 calledOperations: aSLMethodTestObject
 
-	<SLTestName: nil
-	Description: ''>
+	<slTestName: nil
+	description: nil>
 
 	| messages |
 	aSLMethodTestObject shouldBeMethod.

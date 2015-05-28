@@ -1,8 +1,9 @@
 tests
 maxNesting: aSLMethodTestObject
 
-	<SLTestName: 'Maximum Nesting Level'
-	Description: nil>
+	<slTestName: 'Maximum Nesting Level'
+	description: nil>
+
 	| max current i c |
 	max := 0.
 	current := 0.

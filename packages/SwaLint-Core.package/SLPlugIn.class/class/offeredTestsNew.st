@@ -1,18 +1,26 @@
 tests
 offeredTestsNew 
 
-	| allTestData |
+	| allTestData allPragmas |
 	allTestData := Dictionary new.
-	Pragma withPragmasIn: self do: [:aPragma |
-		((aPragma key == #SLTestName:Description:) | (aPragma key == #SLTestHidden:LongRuntime:)) ifTrue: [
-		allTestData at: (aPragma selector asString)
-			ifPresent: [ :testData | 
-				testData addDataFromPragma: aPragma
-			] 
-			ifAbsent: [ 
-				allTestData at: (aPragma selector asString) put: (SLTestData newFromPragma: aPragma plugIn: self)
-			]
-		]
+	allPragmas := OrderedCollection new.
+	allPragmas addAll: (Pragma allNamed: #slTestName:description: in: self).
+	allPragmas addAll: (Pragma allNamed: #slTestHidden:longRuntime: in: self).
+	allPragmas do: [ :aPragma |
+		allTestData at: aPragma selector asString ifAbsent: [ allTestData at: aPragma selector asString put: (SLTestData newFromPlugIn: self) ].
+		allTestData at: aPragma selector asString ifPresent: [ :aTestData |
+			aPragma keyword == #slTestName:description: ifTrue: [ 
+				aTestData setSelector: aPragma selector 
+					name: aPragma arguments first 
+					description: aPragma arguments second 
+					hidden: nil 
+					longRuntime: nil].
+			aPragma keyword == #slTestHidden:longRuntime: ifTrue: [ 
+				aTestData setSelector: aPragma selector 
+					name: nil 
+					description: nil 
+					hidden: aPragma arguments first 
+					longRuntime: aPragma arguments second ].
+		].
 	].
-	"Transcript crtab; show: allTestData."
 	^ allTestData values

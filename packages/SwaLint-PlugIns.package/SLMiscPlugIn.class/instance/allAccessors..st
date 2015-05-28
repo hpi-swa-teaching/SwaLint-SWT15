@@ -1,8 +1,8 @@
 class tests
 allAccessors: aSLClassTestObject
 
-	<SLTestName: nil 
-	Description: 'Collection of all accessors of a class'>
+	<slTestName: nil 
+	description: 'Collection of all accessors of a class'>
 
 	aSLClassTestObject shouldBeClass.
 	^ SLCollectionResult 

@@ -1,7 +1,8 @@
 method tests
 usedForeignVars: aSLMethodTestObject
-	<SLTestName: nil
-	Description: 'Collection of all foreign vars used by a method'>
+
+	<slTestName: nil
+	description: 'Collection of all foreign vars used by a method'>
 
 	aSLMethodTestObject shouldBeMethod.
 	^ SLCollectionResult newWithValue:

@@ -2,8 +2,8 @@ tests
 methodCYCLO: aSLMethodTestObject
 	"Calculates the cyclo for a method."
 
-	<SLTestName: 'Cyclomatic Complexity of a Method [CYCLO]'
-	Description: 'Cyclomatic Complexity by McCabe'>
+	<slTestName: 'Cyclomatic Complexity of a Method [CYCLO]'
+	description: 'Cyclomatic Complexity by McCabe'>
 	
 	| cyclo methodnode |
 	methodnode := RBParser parseMethod: (aSLMethodTestObject sourceCode asString).

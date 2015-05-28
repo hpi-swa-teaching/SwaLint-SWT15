@@ -1,8 +1,8 @@
 tests
 methodCM: aSLMethodTestObject
 
-	<SLTestName: 'Changing Methods [CM]'
-	Description: nil>
+	<slTestName: 'Changing Methods [CM]'
+	description: nil>
 
 	| callers |
 

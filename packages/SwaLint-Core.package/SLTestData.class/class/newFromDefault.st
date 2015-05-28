@@ -7,4 +7,5 @@ newFromDefault
 		category: nil; 
 		method: nil;
 		longRuntime: false;
+		hidden: false;
 		plugIn: nil

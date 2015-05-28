@@ -1,8 +1,8 @@
 tests
 methodFDP: aSLMethodTestObject
 
-	<SLTestName: 'Foreign Data Providers [FDP]'
-	Description: nil>
+	<slTestName: 'Foreign Data Providers [FDP]'
+	description: nil>
 	
 	| allVars |
 	

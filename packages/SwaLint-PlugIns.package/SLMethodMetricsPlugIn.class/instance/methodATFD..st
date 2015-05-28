@@ -1,8 +1,8 @@
 tests
 methodATFD: aSLMethodTestObject
 
-	<SLTestName: 'Access To Foreign Data [ATFD]'
-	Description: nil>
+	<slTestName: 'Access To Foreign Data [ATFD]'
+	description: nil>
 
 	| foreignVars |
 	

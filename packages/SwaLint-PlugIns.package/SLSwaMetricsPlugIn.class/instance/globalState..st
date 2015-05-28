@@ -1,7 +1,8 @@
 tests
 globalState: aSLClassTestObject
-	<SLTestName: 'Occurances of global state on the class side'
-	Description: nil>
+
+	<slTestName: 'Occurences of global state on the class side'
+	description: nil>
 
 	aSLClassTestObject shouldBeClass.
 	^ self successResult: aSLClassTestObject classVariables isEmpty not

@@ -1,8 +1,8 @@
 tests
 methodLAA: aSLMethodTestObject
 
-	<SLTestName: 'Locality of Attribute Accesses [LAA]'
-	Description: nil>
+	<slTestName: 'Locality of Attribute Accesses [LAA]'
+	description: nil>
 	
 	| instVars allVars |
 	

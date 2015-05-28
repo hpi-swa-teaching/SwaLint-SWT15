@@ -1,7 +1,8 @@
 tests
 classcount: aSLSystemTestObject
-	<SLTestName: nil
-	Description: 'Overall number of classes'>
+
+	<slTestName: 'Overall number of classes'
+	description: nil>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult: aSLSystemTestObject allClasses size

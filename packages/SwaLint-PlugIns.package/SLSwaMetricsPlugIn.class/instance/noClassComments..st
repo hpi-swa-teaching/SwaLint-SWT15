@@ -1,7 +1,8 @@
 tests
 noClassComments: aSLClassTestObject
-	<SLTestName: 'Missing class comments'
-	Description: nil>
+
+	<slTestName: 'Missing class comments'
+	description: nil>
 
 	| class |
 	aSLClassTestObject shouldBeClass.

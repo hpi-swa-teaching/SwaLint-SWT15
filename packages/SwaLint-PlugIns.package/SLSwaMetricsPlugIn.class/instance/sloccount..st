@@ -1,10 +1,8 @@
 tests
 sloccount: aSLSystemTestObject
 
-	<SLTestName: nil
-	Description: 'Overall lines of code'>
-	<SLTestHidden: nil 
-	LongRuntime: nil>
+	<slTestName: 'Overall lines of code'
+	description: nil>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult:

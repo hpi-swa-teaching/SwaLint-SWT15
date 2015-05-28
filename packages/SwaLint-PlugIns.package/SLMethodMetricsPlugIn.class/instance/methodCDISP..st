@@ -2,8 +2,8 @@ tests
 methodCDISP: aSLMethodTestObject
 	"Number of classes := number of variables * 0.9"
 
-	<SLTestName: 'Coupling Dispersion of a Method [CDISP]'
-	Description: 'The number of classes in which the operations called from the measured operation are defined, divided by CINT'>
+	<slTestName: 'Coupling Dispersion of a Method [CDISP]'
+	description: 'The number of classes in which the operations called from the measured operation are defined, divided by CINT'>
 	
 	^ self percentageResult:
 	(((aSLMethodTestObject resultOf: #methodCINT:) <= 0) 

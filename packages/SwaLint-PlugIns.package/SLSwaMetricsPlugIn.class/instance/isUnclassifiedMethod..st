@@ -1,7 +1,8 @@
 private
 isUnclassifiedMethod: aSLMethodTestObject
-	<SLTestHidden: true 
-	LongRuntime: nil>
+
+	<slTestHidden: true
+	longRuntime: nil>
 
 	aSLMethodTestObject shouldBeMethod.
 	^ self booleanResult: (aSLMethodTestObject 
