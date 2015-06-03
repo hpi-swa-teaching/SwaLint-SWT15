@@ -1,7 +1,10 @@
 plugins
-addPlugIn: aPlugInClass
+addPlugIn: aSLPlugInClass
 	"Register all tests offered by the plug-in class."
 
-	aPlugInClass isInstalled ifFalse: [^ self].
-	aPlugInClass offeredTests do: [ :test |
+	aSLPlugInClass subclassesDo: [ :subclass |
+		self addPlugIn: subclass].
+	aSLPlugInClass offeredTests do: [ :test |
 		self addTest: test].
+
+	self refreshAllDialogs.

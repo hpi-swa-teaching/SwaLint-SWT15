@@ -1,4 +1,6 @@
 initialize-release
 resetPlugIns
 
-	self resetPlugIn: SLPlugIn.
+	self removePlugIn: SLPlugIn.
+	self addPlugIn: SLPlugIn.
+	"self resetPlugIn: SLPlugIn."
