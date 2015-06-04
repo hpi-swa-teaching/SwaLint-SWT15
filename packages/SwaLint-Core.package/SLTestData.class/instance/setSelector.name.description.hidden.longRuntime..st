@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setSelector: aSymbol
 	name: aName
 	description: aDescription
@@ -8,7 +8,7 @@ setSelector: aSymbol
 	self
 		symbol: (aSymbol ifNil: [ self symbol ]);
 		method: (aSymbol ifNil: [self symbol ]);
-		name: (aName ifNil: [aSymbol asString]);
+		name: (aName ifNil: [self name ifNil: [aSymbol asString]]);
 		description: (aDescription ifNil: [ self description ifNil: ['no description']]).
 	aHiddenBool 
 		ifNil: [ self category: (self category ifNil: [ SLTestData defaultCategoryOf: self plugIn]).] 

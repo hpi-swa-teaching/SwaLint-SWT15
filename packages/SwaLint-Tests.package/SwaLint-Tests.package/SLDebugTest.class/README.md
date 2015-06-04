@@ -1,1 +1,0 @@
-I provide test for the debug functionalities of SwaLint.

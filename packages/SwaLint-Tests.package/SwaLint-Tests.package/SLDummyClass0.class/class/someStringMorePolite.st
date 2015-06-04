@@ -1,4 +1,0 @@
-accessing
-someStringMorePolite
-
-	^ self someString, ' :-)'

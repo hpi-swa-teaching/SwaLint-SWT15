@@ -18,6 +18,6 @@ test07DispersedCouplingTest
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass6)).
 	dispersedCoupling := couplingClass methodForSelector: #dispersedCoupling.
 	
-	self assert: (dispersedCoupling resultOf: #methodCINT) equals: 31.
+	self assert: (dispersedCoupling resultOf: #methodCINT:) equals: 31.
 
-	self assert: (dispersedCoupling resultOf: #dispersedCoupling) equals: true
+	self assert: (dispersedCoupling resultOf: #dispersedCoupling:) equals: true

@@ -16,7 +16,7 @@ test03ShotgunSurgeryTest
 				addClass: (SLClassTestObject newFrom: (SLTestMethodCaller07)).
 	shotgunSurgery parent: testSystem.
 	
-	self assert: (shotgunSurgery resultOf: #methodCC) equals: 7.
-	self assert: (shotgunSurgery resultOf: #methodCM) equals: 35.
+	self assert: (shotgunSurgery resultOf: #methodCC:) equals: 7.
+	self assert: (shotgunSurgery resultOf: #methodCM:) equals: 35.
 	
-	self assert: (shotgunSurgery resultOf: #shotgunSurgery) equals: true
+	self assert: (shotgunSurgery resultOf: #shotgunSurgery:) equals: true

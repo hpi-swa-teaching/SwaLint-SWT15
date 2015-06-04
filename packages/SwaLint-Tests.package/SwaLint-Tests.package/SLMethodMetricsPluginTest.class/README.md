@@ -1,1 +1,0 @@
-I provide tests for the method metrics plugin.

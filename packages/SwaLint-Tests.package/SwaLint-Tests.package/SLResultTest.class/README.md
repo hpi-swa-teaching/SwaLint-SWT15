@@ -1,1 +1,0 @@
-My subclasses test result objects.

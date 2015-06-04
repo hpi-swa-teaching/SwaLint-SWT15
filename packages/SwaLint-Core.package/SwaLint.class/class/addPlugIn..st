@@ -8,6 +8,6 @@ addPlugIn: aPlugInClass
 		Transcript cr.
 "		^ self].
 	
-	aPlugInClass offeredTestsNew do: [ :test |
+	aPlugInClass offeredTests do: [ :test |
 		self addTest: test].
 "	Transcript cr."

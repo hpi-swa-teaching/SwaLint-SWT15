@@ -1,1 +1,0 @@
-I provide test helpers for all plugin tests.

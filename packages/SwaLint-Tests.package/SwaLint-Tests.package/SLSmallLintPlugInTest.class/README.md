@@ -1,1 +1,0 @@
-I provide tests for th SmallLint plugin.
