@@ -16,7 +16,6 @@
 		"onInstall" : "AT 5/27/2008 15:40",
 		"onUnload" : "AT 5/27/2008 15:43",
 		"reinstall" : "NRe 5/27/2008 00:13",
-		"reload" : "AT 5/10/2008 00:09",
 		"removePreferences" : "MT 7/23/2014 21:51",
 		"reset" : "topa 2/7/2008 23:08",
 		"showUnsolvedDependenciesInfo" : "AT 5/27/2008 15:04",

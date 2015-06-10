@@ -13,7 +13,8 @@
 		"WorldMenuEntry" ],
 	"commentStamp" : "AT 2/2/2008 17:49",
 	"instvars" : [
-		 ],
+		"categories",
+		"tests" ],
 	"name" : "SwaLint",
 	"pools" : [
 		 ],
