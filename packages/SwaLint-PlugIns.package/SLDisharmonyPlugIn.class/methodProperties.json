@@ -21,8 +21,6 @@
 	"instance" : {
 		"brainClass:" : "JTM 5/27/2015 13:48",
 		"brainMethod:" : "JTM 5/27/2015 13:48",
-		"classIgnoresBequest:" : "NA 6/3/2015 11:07",
-		"classIsNotTooSmallAndSimple:" : "NA 6/3/2015 11:07",
 		"dataClass:" : "JTM 5/27/2015 13:48",
 		"dispersedCoupling:" : "JTM 5/27/2015 13:48",
 		"excessiveInterfaceIncrease:" : "JTM 5/27/2015 13:49",
@@ -38,7 +36,6 @@
 		"looksLikeDispersedCoupling:" : "JTM 5/27/2015 13:51",
 		"looksLikeIntensiveCoupling:" : "JTM 5/27/2015 13:52",
 		"parentNeitherSmallNorDumb:" : "JTM 5/27/2015 13:52",
-		"refusedParentBequest:" : "NA 6/3/2015 10:42",
 		"searchCloneIn:from:comparedWith:from:range:ifFound:" : "topa 1/18/2015 22:01",
 		"shotgunSurgery:" : "JTM 5/27/2015 13:49",
 		"significantDuplication:" : "JTM 5/27/2015 13:49",

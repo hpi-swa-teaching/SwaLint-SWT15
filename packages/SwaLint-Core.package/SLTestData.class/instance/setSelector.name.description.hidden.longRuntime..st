@@ -11,7 +11,7 @@ setSelector: aSymbol
 		name: (aName ifNil: [self name ifNil: [aSymbol asString]]);
 		description: (aDescription ifNil: [ self description ifNil: ['no description']]).
 	aHiddenBool 
-		ifNil: [ self category: (self category ifNil: [ SLTestData defaultCategoryOf: self plugIn]).] 
+		ifNil: [ self category: (self category ifNil: [self plugIn defaultCategory]).] 
 		ifNotNil: [ self category: (aHiddenBool 
 			ifTrue: [ SwaLint hiddenCategory ] 
 			ifFalse: [	SLTestData defaultCategoryOf: self plugIn ])].

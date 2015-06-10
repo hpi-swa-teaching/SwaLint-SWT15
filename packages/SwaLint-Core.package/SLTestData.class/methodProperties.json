@@ -1,14 +1,9 @@
 {
 	"class" : {
-		"defaultCategoryOf:" : "AT 5/8/2008 16:17",
-		"isTestDataObject:" : "AT 5/8/2008 16:17",
-		"newFrom:" : "NA 6/3/2015 17:12",
+		"newFromArray:plugIn:" : "SH 6/10/2015 11:07",
 		"newFromDefault" : "NA 6/3/2015 16:37",
 		"newFromPlugIn:" : "JTM 5/27/2015 10:36" },
 	"instance" : {
-		"addDataFromHiddenLongRuntimePragma:" : "JTM 5/27/2015 14:09",
-		"addDataFromNameDescPragma:" : "JTM 5/27/2015 13:42",
-		"addDataFromPragma:" : "JTM 5/26/2015 23:08",
 		"asSymbol" : "topa 1/10/2015 15:37",
 		"category" : "AT 5/8/2008 12:25",
 		"category:" : "NR 1/10/2008 11:58",
@@ -28,7 +23,7 @@
 		"name:" : "NR 1/10/2008 12:01",
 		"plugIn" : "AT 5/8/2008 12:25",
 		"plugIn:" : "AT 5/23/2008 22:33",
-		"setSelector:name:description:hidden:longRuntime:" : "NA 6/3/2015 16:16",
+		"setSelector:name:description:hidden:longRuntime:" : "SH 6/10/2015 11:30",
 		"showInResultDialog" : "AT 5/27/2008 19:13",
 		"symbol" : "AT 5/8/2008 12:25",
 		"symbol:" : "AT 5/23/2008 21:21",

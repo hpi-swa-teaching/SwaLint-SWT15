@@ -1,9 +1,6 @@
 tests
 testTestDataSimple
 	| td |
-	self 
-		should: [SLTestData newFrom: Object] 
-		raise: Error. "test nil data"
 	
 	td := SLTestData newFromDefault.
 	td setSelector: #test name: 'test' description: 'test2' hidden: true longRuntime: true.
