@@ -7,6 +7,9 @@ calledClasses: aSLMethodTestObject
 	| classNames |
 	aSLMethodTestObject shouldBeMethod.
 	classNames := Set new.
-	(aSLMethodTestObject testObject) messages do: 
-		[:selector | classNames addAll: ((SystemNavigation allCallsOn: selector) collect: [:methodReference | methodReference className]) ].
+	(aSLMethodTestObject testObject ) messages do: 
+		[:selector |
+		classNames addAll: 
+			((aSLMethodTestObject testObject methodClass allCallsOn: selector) collect: 
+				[:methodReference | methodReference className])].
 	^self collectionResult: classNames
