@@ -16,5 +16,6 @@ overviewPyramidMetric: aSLSystemTestObject
 	collection at: #calls put: (self systemCALLS: aSLSystemTestObject).
 	collection at: #fanout put: (self systemFANOUT: aSLSystemTestObject).
 	collection at: #andc put: (((aSLSystemTestObject allClasses collect: [:class | class testObject subclasses size]) sum ) / (collection at: #noc)) .
-	collection at: #ahh put: 'toDo'.
+	collection at: #ahh put: ((aSLSystemTestObject rootClasses collect: 
+		[:class | class resultOf: #heightOfInheritanceTree: ]) sum) / (aSLSystemTestObject rootClasses size).
 	^ self collectionResult: collection
