@@ -2,7 +2,7 @@ tests
 overviewPyramidMetric: aSLSystemTestObject
 
 	<slTestName: 'Overview Pyramid Metric'
-	description: 'Summarizes Metrics (CYCLO, NOM, LOC, NOC, NOP, Number of derived classes, Height of Inheritance Tree, CALLS, FANOUT) necessary for 	showing the Overview Pyramid.' >
+	description: 'Summarizes Metrics (CYCLO, NOM, LOC, NOC, NOP, Number of derived classes, Height of Inheritance Tree, CALLS, FANOUT) necessary for showing the Overview Pyramid.' >
 	<slTestHidden: true
 	longRuntime: true>
 
