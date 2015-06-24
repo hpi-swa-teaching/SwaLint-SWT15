@@ -36,6 +36,7 @@
 		"isSLResult" : "AT 5/17/2008 16:53",
 		"isSummary" : "AT 5/8/2008 10:07",
 		"noResult" : "AT 5/8/2008 10:08",
+		"printOn:" : "NH 6/24/2015 14:43",
 		"result" : "AT 5/8/2008 10:08",
 		"shouldBeShown" : "AT 5/26/2008 23:53",
 		"showAlways" : "AT 5/8/2008 10:08",
@@ -45,6 +46,6 @@
 		"testData:" : "NR 1/13/2008 22:33",
 		"testObject" : "AT 5/8/2008 10:08",
 		"testObject:" : "AT 2/2/2008 17:02",
-		"valueAsString" : "AT 5/26/2008 23:30",
+		"valueAsString" : "NH 6/24/2015 14:45",
 		"valueFormatRule" : "AT 5/8/2008 10:08",
 		"valueFormatRule:" : "AT 5/27/2008 14:10" } }
