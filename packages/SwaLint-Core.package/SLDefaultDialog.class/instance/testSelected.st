@@ -1,4 +1,4 @@
 accessing-test
 testSelected
 
-	^ 0
+	^ testIndex

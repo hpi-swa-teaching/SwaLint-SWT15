@@ -4,7 +4,7 @@ buildTestListWith: aBuilder
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		name: 'Test List';
-		list: #tests;
+		list: #testsList;
 		menu: #testMenu:;
 		getIndex: #testSelected; 
 		setIndex: #testSelected:;

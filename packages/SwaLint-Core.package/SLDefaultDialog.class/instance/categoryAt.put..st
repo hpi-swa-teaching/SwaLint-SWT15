@@ -1,7 +1,9 @@
 accessing-categories
 categoryAt: anInteger put: aBoolean
+	| target |
+	target := self categoryList at: anInteger ifAbsent: [^ self].
 
-	categoriesSelected := categoriesSelected
-		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
-		with: (self categoryList at: anInteger ifAbsent: [ ^ self ]).
+	categoriesSelected := aBoolean
+		ifTrue: [ categoriesSelected copyWith: target ]
+		ifFalse: [ categoriesSelected copyWithout: target ].
 	self changed: #categorySelected; updateClasses.

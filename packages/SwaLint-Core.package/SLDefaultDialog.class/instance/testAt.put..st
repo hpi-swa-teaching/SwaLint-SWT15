@@ -1,6 +1,5 @@
 accessing-test
 testAt: anInteger put: aBoolean
-
 	| target |
 	target := tests at: anInteger ifAbsent: [^ self].
 
