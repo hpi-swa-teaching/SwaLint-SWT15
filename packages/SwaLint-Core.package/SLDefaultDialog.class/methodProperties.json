@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"open" : "AT 5/8/2008 09:28" },
+		"build" : "NA 6/30/2015 13:23",
+		"open" : "NA 6/30/2015 13:22",
+		"windowColorSpecification" : "NA 6/30/2015 13:23" },
 	"instance" : {
 		"basicRunSuite:do:" : "NA 6/30/2015 11:56",
 		"basicSetUpSuite:" : "NA 6/30/2015 11:56",
