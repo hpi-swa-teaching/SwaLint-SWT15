@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"defaultCategory" : "topa 4/21/2010 08:54",
+		"defaultPreferenceOf:" : "JTM 7/1/2015 11:05",
 		"description" : "AT 5/8/2008 12:21",
 		"externalTests" : "topa 4/21/2010 08:53",
-		"initializePreferences" : "topa 4/21/2010 08:55",
+		"initializePreferences" : "JTM 7/1/2015 11:21",
 		"looksLikeLintRule:" : "topa 4/21/2010 08:24",
 		"namespacePrefix" : "topa 4/21/2010 08:18",
 		"offeredTestsData" : "topa 4/21/2010 16:49",
