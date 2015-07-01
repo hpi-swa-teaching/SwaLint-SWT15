@@ -11,10 +11,10 @@ buildWith: aBuilder
 				frame: self classesFrame;
 				yourself);
 			add: ((self buildTestListWith: aBuilder)
-				frame: self testListFrame;
+				frame: self testsFrame;
 				yourself);
 			add: ((self buildTestCategoryListWith: aBuilder)
-				frame: self testCategoryListFrame;
+				frame: self testCategoriesFrame;
 				yourself);
 			add: ((self buildButtonsWith: aBuilder)
 				frame: self buttonsFrame;

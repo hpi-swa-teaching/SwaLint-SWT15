@@ -2,7 +2,7 @@ building
 categoriesFrame
 
 	^ LayoutFrame new
-		leftFraction: 0 offset: 0;
-		topFraction: 0 offset: 0;
-		rightFraction: 0.25 offset: 0;
-		bottomFraction: 1 offset: self buttonHeight negated + 4
+		leftFraction: self categoriesLeft offset: 0;
+		topFraction: self categoriesTop offset: 0;
+		rightFraction: self categoriesRight offset: 0;
+		bottomFraction: self buttonsTop offset: self categoriesOffsetBottom

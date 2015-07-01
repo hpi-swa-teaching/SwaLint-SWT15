@@ -1,4 +1,4 @@
 building
 buttonHeight
 
-	^ Preferences standardButtonFont height + 25
+	^ Preferences standardButtonFont height * 2
