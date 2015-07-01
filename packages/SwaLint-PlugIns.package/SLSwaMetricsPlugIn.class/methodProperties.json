@@ -18,6 +18,7 @@
 		"methodHasFormattingProblems:" : "JTM 5/27/2015 14:01",
 		"methodUsesMetaprogramming:" : "JTM 5/27/2015 14:01",
 		"methodcount:" : "JTM 5/27/2015 11:00",
+		"methodsWithoutSenders:" : "TS 7/1/2015 09:43",
 		"nilProgramming:" : "JTM 5/27/2015 13:54",
 		"noClassComments:" : "JTM 5/27/2015 11:01",
 		"sloccount:" : "JTM 5/27/2015 11:02",
