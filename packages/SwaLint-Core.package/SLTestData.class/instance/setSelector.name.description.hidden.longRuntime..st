@@ -15,6 +15,6 @@ setSelector: aSymbol
 		ifNotNil: [ self category: (aHiddenBool 
 			ifTrue: [ SwaLint hiddenCategory ] 
 			ifFalse: [ self plugIn defaultCategory ])].
-	self longRuntime: ( aRuntimeBool ifNil: [ self longRuntime ] ifNotNil: [ aRuntimeBool]).
-^self
+	self longRuntime: ( aRuntimeBool ifNil: [ self longRuntime ] ifNotNil: [ aRuntimeBool ]).
+	^ self
 

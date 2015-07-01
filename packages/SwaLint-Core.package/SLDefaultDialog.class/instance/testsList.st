@@ -1,4 +1,4 @@
 accessing-test
 testsList
 	
-	^ tests collect: [ :test | test name]
+	^ tests collect: [ :test | test format]

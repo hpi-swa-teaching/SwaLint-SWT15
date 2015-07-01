@@ -1,6 +1,4 @@
-accessing
+accessing-ui
 windowLabel
 
-	^ 'SwaLint TestSuite: Results',
-		(self environment ifNil: ['']
-			ifNotNil: [' (', self environment timeString, ')'])
+	^ 'SwaLint TestSuite' 
