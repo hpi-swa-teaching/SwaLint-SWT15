@@ -10,4 +10,4 @@ updateTests
 		ifFalse: [ 
 			testsSelected
 				select: [ :each | testsForCategories includes: each ] ].
-	self changed: #testsList; changed: #testSelected; changed: #hasRunnable.
+	self changed: #testsList; changed: #testSelected.

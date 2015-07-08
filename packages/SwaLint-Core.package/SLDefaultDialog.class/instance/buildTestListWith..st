@@ -10,4 +10,4 @@ buildTestListWith: aBuilder
 		setIndex: #testSelected:;
 		getSelectionList: #testAt:;
 		setSelectionList: #testAt:put:;
-		yourself.
+		yourself

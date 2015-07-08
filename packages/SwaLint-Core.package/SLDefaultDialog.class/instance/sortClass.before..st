@@ -5,5 +5,5 @@ sortClass: aFirstClass before: aSecondClass
 	second := aSecondClass withAllSuperclasses reversed.
 	1 to: (first size min: second size) do: [ :index | 
 		(first at: index) == (second at: index)
-			ifFalse: [ ^ (first at: index) name <= (second at: index) name ] ].
-	^ second includes: aFirstClass.
+			ifFalse: [ ^ (first at: index) name <= (second at: index) name ]].
+	^ second includes: aFirstClass

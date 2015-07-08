@@ -10,4 +10,4 @@ categoryMenu: aMenu
 		add: 'Filter...' action: #filterCategories;
 		addLine;
 		add: 'Refresh' action: #updateCategories;
-		yourself.
+		yourself

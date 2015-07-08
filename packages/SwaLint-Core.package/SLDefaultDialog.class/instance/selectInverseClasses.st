@@ -7,6 +7,5 @@ selectInverseClasses
 		removeAll: classesSelected;
 		yourself.
 	self
-		changed: #allSelections;
 		changed: #classSelected;
-		changed: #hasRunnable
+		changed: #runnable.

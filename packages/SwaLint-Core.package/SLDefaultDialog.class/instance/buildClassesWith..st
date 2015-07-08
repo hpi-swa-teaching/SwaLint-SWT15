@@ -10,4 +10,4 @@ buildClassesWith: aBuilder
 		setIndex: #classSelected:;
 		getSelectionList: #classAt:;
 		setSelectionList: #classAt:put:;
-		yourself.
+		yourself

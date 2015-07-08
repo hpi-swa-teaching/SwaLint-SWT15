@@ -8,4 +8,4 @@ selectableResults
 	^ self classes selectedItems 
 		inject: result
 		into: [ :list :aClass |
-			self addResultsOf: selTests from: aClass andChildrenTo: list].	
+			self addResultsOf: selTests from: aClass andChildrenTo: list]

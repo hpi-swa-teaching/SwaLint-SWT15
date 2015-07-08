@@ -11,4 +11,4 @@ buildButtonsWith: aBuilder
 				action: each second;
 				enabled: each third;
 				yourself ]);
-		yourself.
+		yourself

@@ -1,4 +1,4 @@
 accessing-testCategories
 testCategoryAt: anInteger
 
-	^ testCategoriesSelected includes: (self testCategories at: anInteger ifAbsent: [ ^ false ]).
+	^ testCategoriesSelected includes: (self testCategories at: anInteger ifAbsent: [ ^ false ])

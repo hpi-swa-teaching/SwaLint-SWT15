@@ -1,3 +1,4 @@
 selections
 anySelected
-	^selection includes:true.
+
+	^selection includes: true

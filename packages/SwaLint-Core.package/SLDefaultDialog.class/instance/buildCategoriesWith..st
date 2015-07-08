@@ -10,4 +10,4 @@ buildCategoriesWith: aBuilder
 		setIndex: #categorySelected:;
 		getSelectionList: #categoryAt:;
 		setSelectionList: #categoryAt:put:;
-		yourself.
+		yourself

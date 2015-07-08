@@ -10,4 +10,4 @@ updateClasses
 		ifFalse: [ 
 			classesSelected
 				select: [ :each | classesForCategories includes: each ] ].
-	self changed: #classList; changed: #classSelected; changed: #hasRunnable.
+	self changed: #classList; changed: #classSelected.

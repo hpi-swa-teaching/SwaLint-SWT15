@@ -12,4 +12,4 @@ filterCategories
 			matches
 			addAll: (self categoryList select: [ :each | subPattern match: each]);
 			yourself].
-	self changed: #allSelections; changed: #categorySelected; updateClasses
+	self changed: #categorySelected; updateClasses.

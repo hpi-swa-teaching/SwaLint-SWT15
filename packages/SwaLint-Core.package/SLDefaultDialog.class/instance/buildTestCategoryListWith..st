@@ -10,4 +10,4 @@ buildTestCategoryListWith: aBuilder
 		setIndex: #testCategorySelected:;
 		getSelectionList: #testCategoryAt:;
 		setSelectionList: #testCategoryAt:put:;
-		yourself.
+		yourself

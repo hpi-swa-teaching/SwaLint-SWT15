@@ -13,6 +13,5 @@ filterClasses
 									addAll: (classes select: [ :each | subPattern match: each name]);
 									yourself].
 	self
-		changed: #allSelections;
 		changed: #classSelected;
-		changed: #hasRunnable
+		changed: #runnable.

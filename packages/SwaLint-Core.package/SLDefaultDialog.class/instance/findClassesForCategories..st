@@ -6,4 +6,4 @@ findClassesForCategories: aCollection
 	items := aCollection gather: [ :category |
 		((Smalltalk organization listAtCategoryNamed: category)
 			collect: [ :each | Smalltalk at: each ])].
-	^ items asSet.
+	^ items asSet
