@@ -11,4 +11,5 @@ buildWith: aBuilder
 		}.
 
 	tool := aBuilder build: window.
+	self createOverviewPyramidMorph: tool.
 	^tool

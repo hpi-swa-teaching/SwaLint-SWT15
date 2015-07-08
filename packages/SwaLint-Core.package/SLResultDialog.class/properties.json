@@ -9,7 +9,9 @@
 		"isMultiSelectable",
 		"isOrderedByTests",
 		"results",
-		"resultsSelected" ],
+		"resultsSelected",
+		"overviewResults",
+		"mainMorph" ],
 	"name" : "SLResultDialog",
 	"pools" : [
 		 ],

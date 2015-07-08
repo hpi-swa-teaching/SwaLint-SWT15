@@ -9,10 +9,9 @@ buildResultsWith: aBuilder
 				children: ({
 					(self buildResultsListWith: aBuilder)
 						frame: self resultsFrameInPanel;
-						yourself.	
+						yourself.
 					aBuilder pluggablePanelSpec new
 						name: self resultsPanelName;
-						frame: self overviewPyramidFrame;
-						children: {};
+						frame: (self overviewPyramidFrame);
 						yourself.
 			} as: OrderedCollection)]
