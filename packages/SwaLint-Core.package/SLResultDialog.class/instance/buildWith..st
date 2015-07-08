@@ -1,8 +1,8 @@
 building
 buildWith: aBuilder
-	| window |
+	| window tool |
 	window := aBuilder pluggableWindowSpec new
-		model: self; label: self windowLabel; extent: self extent;
+		model: self; label: #windowTitle;
 		children: (OrderedCollection new 
 			add: ((self buildCategoriesWith: aBuilder)
 				frame: self categoriesFrame;
@@ -24,4 +24,5 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
-	^ aBuilder build: window
+	tool :=aBuilder build: window.
+	^tool

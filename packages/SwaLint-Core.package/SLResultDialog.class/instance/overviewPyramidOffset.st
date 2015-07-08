@@ -1,0 +1,4 @@
+building
+overviewPyramidOffset
+
+	^ 150
