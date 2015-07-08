@@ -1,18 +1,13 @@
 building
 buildResultsWith: aBuilder
 
-	^ Smalltalk isMorphic
-		ifFalse: [self buildResultsListWith: aBuilder]
-		ifTrue: [
-			aBuilder pluggablePanelSpec new
-				frame: self resultsFrame;
-				children: ({
-					(self buildResultsListWith: aBuilder)
-						frame: self resultsFrameInPanel;
-						yourself.	
-					aBuilder pluggablePanelSpec new
-						name: self resultsPanelName;
-						frame: self overviewPyramidFrame;
-						children: {};
-						yourself.
-			} as: OrderedCollection)]
+	^ aBuilder pluggableMultiSelectionListSpec new
+		model: self;
+		name: 'Results List';
+		list: #resultList;
+		menu: #resultMenu:;
+		getIndex: #resultSelected;
+		setIndex: #resultSelected:;
+		getSelectionList: #resultAt:;
+		setSelectionList: #resultAt:put:;
+		yourself

@@ -1,4 +1,4 @@
 accessing-ui
-initialExtent
+extent
 
 	^ 640 @ 480

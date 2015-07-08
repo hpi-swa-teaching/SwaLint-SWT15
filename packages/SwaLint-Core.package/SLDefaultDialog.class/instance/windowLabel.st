@@ -1,4 +1,4 @@
 accessing-ui
-windowTitle
+windowLabel
 
 	^ 'SwaLint TestSuite' 
