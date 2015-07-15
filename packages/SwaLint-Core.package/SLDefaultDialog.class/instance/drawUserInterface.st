@@ -4,7 +4,7 @@ drawUserInterface
 
 	| buttonBar |
 	buttonBar := self createButtonBarWithNextButton: self runButton.
-	
+
 	(self window)
 		reset;
 		addMorph: (self environment classCategories listMorph) 

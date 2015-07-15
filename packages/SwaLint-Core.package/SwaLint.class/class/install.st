@@ -1,9 +1,6 @@
-initialize-release
+finalization
 install
 
-	self 
-		initializePreferences;		
-		initializeInstanceVariables;
-		resetPlugIns;
-		refreshAllDialogs;
-		registerInWorldMenu.
+	(TheWorldMenu respondsTo: #unregisterOpenCommand:)
+		ifTrue: [TheWorldMenu unregisterOpenCommand: self swaLint].
+	TheWorldMenu registerOpenCommand: {self swaLint. {self. #new}}.

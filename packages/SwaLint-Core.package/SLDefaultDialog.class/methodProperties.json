@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"open" : "AT 5/8/2008 09:28" },
+		"open" : "AT 5/8/2008 09:28",
+		"open:" : "NH 7/15/2015 22:54" },
 	"instance" : {
 		"cancelButton" : "AT 5/8/2008 09:28",
 		"createButtonBarWithNextButton:" : "NR 5/10/2008 10:35",
-		"drawUserInterface" : "NR 12/18/2007 13:52",
+		"drawUserInterface" : "NH 7/15/2015 23:42",
 		"run" : "NR 1/2/2008 16:40",
 		"runButton" : "AT 5/8/2008 09:28",
 		"runnable" : "AT 5/8/2008 09:28",

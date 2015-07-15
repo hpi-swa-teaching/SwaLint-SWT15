@@ -11,7 +11,8 @@
 		"processedItems",
 		"testDictionary",
 		"testSystem",
-		"runSpecificData" ],
+		"runSpecificData",
+		"environment" ],
 	"name" : "SLTestRunner",
 	"pools" : [
 		 ],

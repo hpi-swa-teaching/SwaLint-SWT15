@@ -1,0 +1,4 @@
+SwaLint
+debugMode
+
+	^ debug

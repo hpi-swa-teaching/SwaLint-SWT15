@@ -1,0 +1,4 @@
+SwaLint
+categories
+
+	^ categories

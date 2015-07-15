@@ -1,4 +1,4 @@
-accessing
-tests: anObject
+SwaLint
+tests: aDictionary
 
-	tests := anObject.
+	tests := aDictionary.

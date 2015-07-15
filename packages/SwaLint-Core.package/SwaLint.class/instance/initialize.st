@@ -1,5 +1,8 @@
-initialize-release
+instance creation
 initialize
 
-	super initialize.
-	self install.
+	| environment |
+	environment := SLDefaultEnvironment new
+		"initializeSwaLint;"
+		addPlugIn: SLPlugIn.
+	SLDefaultDialog open: environment.
