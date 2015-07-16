@@ -14,4 +14,5 @@ filterClasses
 									yourself].
 	self
 		changed: #classSelected;
-		changed: #runnable.
+		changed: #runnable;
+		update.

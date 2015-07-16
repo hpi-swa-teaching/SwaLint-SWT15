@@ -10,4 +10,5 @@ buildResultsWith: aBuilder
 		setIndex: #resultSelected:;
 		getSelectionList: #resultAt:;
 		setSelectionList: #resultAt:put:;
+		icon: #iconAt:;
 		yourself

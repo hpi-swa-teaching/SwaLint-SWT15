@@ -1,13 +1,11 @@
 updating
 updateTests
 	| testsForCategories |
-	testsForCategories := self findTestsForTestCategories: testCategoriesSelected.
-	tests := testsForCategories asArray
-		"sort: [ :a :b | self sortClass: a before: b ]".
+	testsForCategories := self findTestsForSelectedTestCategories.
+	tests := testsForCategories sorted: [ :aTest :anotherTest | aTest name <= anotherTest name ].
 	testIndex := 0.
 	testsSelected := testsSelected isNil
 		ifTrue: [ testsForCategories ]
 		ifFalse: [ 
-			testsSelected
-				select: [ :each | testsForCategories includes: each ] ].
-	self changed: #testsList; changed: #testSelected.
+			testsSelected select: [ :each | testsForCategories includes: each ]].
+	self changed: #testList; changed: #testSelected.

@@ -9,5 +9,6 @@ categoryMenu: aMenu
 		addLine;
 		add: 'Filter...' action: #filterCategories;
 		addLine;
+		add: self selectString action: #toggleCategorySelectionMethod;
 		add: 'Refresh' action: #updateCategories;
 		yourself

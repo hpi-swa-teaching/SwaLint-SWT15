@@ -4,7 +4,7 @@ buildTestCategoryListWith: aBuilder
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		name: 'Test Category List';
-		list: #testCategories; 
+		list: #testCategoryList; 
 		menu: #testCategoryMenu:;
 		getIndex: #testCategorySelected; 
 		setIndex: #testCategorySelected:;

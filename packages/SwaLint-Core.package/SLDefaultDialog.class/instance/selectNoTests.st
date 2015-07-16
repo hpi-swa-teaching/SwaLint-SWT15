@@ -6,4 +6,5 @@ selectNoTests
 	testsSelected := Set new.
 	self
 		changed: #testSelected;
-		changed: #runnable
+		changed: #runnable;
+		update.

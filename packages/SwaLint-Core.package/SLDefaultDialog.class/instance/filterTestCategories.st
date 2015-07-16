@@ -14,4 +14,4 @@ filterTestCategories
 									yourself].
 	self
 		changed: #testCategorySelected;
-		updateTests
+		update.

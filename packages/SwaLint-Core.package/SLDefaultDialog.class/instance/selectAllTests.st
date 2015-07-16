@@ -6,4 +6,5 @@ selectAllTests
 	testsSelected := tests asSet.
 	self
 		changed: #testSelected;
-		changed: #runnable
+		changed: #runnable;
+		update.
