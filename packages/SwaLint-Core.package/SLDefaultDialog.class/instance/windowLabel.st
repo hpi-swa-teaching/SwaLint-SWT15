@@ -1,4 +1,4 @@
-accessing
+accessing-ui
 windowLabel
-	
-	^ 'SwaLint TestSuite'
+
+	^ 'SwaLint TestSuite' 

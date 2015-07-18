@@ -2,7 +2,7 @@ accessing
 selectableClasses
 	"Answer the elements which are selectable by the user"
 	
-	^ self classCategories selectedItems
+	^ self classCategories
 		inject: SortedCollection new
 		into: [ :selectableClasses :category | 
 			selectableClasses 
