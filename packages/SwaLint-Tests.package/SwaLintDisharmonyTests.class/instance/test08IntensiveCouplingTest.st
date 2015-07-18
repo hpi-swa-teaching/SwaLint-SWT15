@@ -18,6 +18,6 @@ test08IntensiveCouplingTest
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass6)).
 	intensiveCoupling := couplingClass methodForSelector: #intensiveCoupling.
 	
-	self assert: (intensiveCoupling resultOf: #methodCINT) equals: 32.
+	self assert: (intensiveCoupling resultOf: #methodCINT:) equals: 32.
 
-	self assert: (intensiveCoupling resultOf: #intensiveCoupling) equals: true
+	self assert: (intensiveCoupling resultOf: #intensiveCoupling:) equals: true

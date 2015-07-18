@@ -1,0 +1,4 @@
+accessing
+multiSelectionString
+
+	^ 'Multi select'
