@@ -3,7 +3,8 @@ initialize
 
 	super initialize.
 	self
+		fetchSystemClasses;
 		defaultClassCategories;
+		defaultClasses;
 		defaultTestCategories;
-		fetchSystemClasses;		
-		reload.
+		defaultTests.
