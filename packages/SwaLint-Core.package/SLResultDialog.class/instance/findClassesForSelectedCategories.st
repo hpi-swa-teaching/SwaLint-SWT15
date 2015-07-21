@@ -1,7 +1,6 @@
 updating
 findClassesForSelectedCategories
 	| items chosenClasses |
-
 	categoriesSelected isEmpty 
 		ifTrue: [ ^ Set new ].
 	items := categoriesSelected gather: [ :category |
@@ -9,5 +8,5 @@ findClassesForSelectedCategories
 			collect: [ :each | Smalltalk at: each ])].
 	self environment ifNil: [chosenClasses := Set new] 
 		ifNotNil: [chosenClasses := self environment classes].
-	items := items select: [:each | chosenClasses includes: each name].
+	chosenClasses := chosenClasses select: [:each | items includes: each testObject].
 	^ chosenClasses
