@@ -13,7 +13,7 @@ createMorphForLOC
 	namemorph := (TextMorph new contents: 'LOC').
 	morph addMorph: namemorph.
 	namemorph position: ((morph position x)+5)@yPosition.
-	calcmorph := (TextMorph new contents: (((overviewResults at: #cyclo)/(overviewResults at: #loc)) asFloat roundDownTo: 0.001) asString).
+	calcmorph := (TextMorph new contents: (((overviewResults at: #cyclo)/(overviewResults at: #loc)) asFloat printShowingMaxDecimalPlaces: 3) asString).
 	morph addMorph: calcmorph.
 	calcmorph position: ((morph position x)-(calcmorph width)-5)@yPosition.
 

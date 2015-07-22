@@ -1,9 +1,9 @@
 overview-pyramid
 createOverviewPyramidMorph: aTool
 	
-	mainMorph := RectangleMorph new.
+	mainMorph := Morph new.
 	mainMorph color: Color white.
-	(aTool submorphNamed: 'SwaLintResultsPanelForMorphic') addMorph: mainMorph fullFrame: self overviewPyramidMorphFrame.
+	(((aTool submorphNamed: self overviewPyramidScrollPaneName) submorphs at: 3) submorphNamed: self resultsPanelName) addMorph: mainMorph fullFrame: self overviewPyramidMorphFrame.
 
 	"overviewResults := self results select: [:each | each hasDetails and: each testData symbol = #overviewPyramidMetric:].
 	overviewResults := self results.
@@ -38,4 +38,9 @@ createOverviewPyramidMorph: aTool
 		addMorph: self createMorphForNOM2;
 		addMorph: self createMorphForCALLS;
 		addMorph: self createMorphForFANOUT.
+
+	mainMorph hide.
+	self isOrderedByTests
+		ifTrue: [ self hideOverviewPyramid ]
+		ifFalse: [ self showOverviewPyramid ].
 	 

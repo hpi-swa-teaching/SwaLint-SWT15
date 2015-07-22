@@ -13,7 +13,7 @@ createMorphForNOC
 	namemorph := (TextMorph new contents: 'NOC').
 	morph addMorph: namemorph.
 	namemorph position: ((morph position x)+5)@yPosition.
-	calcmorph := (TextMorph new contents: (((overviewResults at: #nom)/(overviewResults at: #noc)) asFloat roundDownTo: 0.001) asString).
+	calcmorph := (TextMorph new contents: (((overviewResults at: #nom)/(overviewResults at: #noc)) asFloat printShowingMaxDecimalPlaces: 3) asString).
 	morph addMorph: calcmorph.
 	calcmorph position: ((morph position x)-(calcmorph width)-5)@yPosition.
 

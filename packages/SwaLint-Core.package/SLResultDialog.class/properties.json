@@ -11,7 +11,8 @@
 		"results",
 		"resultsSelected",
 		"overviewResults",
-		"mainMorph" ],
+		"mainMorph",
+		"resultPanel" ],
 	"name" : "SLResultDialog",
 	"pools" : [
 		 ],

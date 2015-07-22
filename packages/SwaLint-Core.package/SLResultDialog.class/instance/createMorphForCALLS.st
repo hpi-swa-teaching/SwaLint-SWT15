@@ -13,7 +13,7 @@ createMorphForCALLS
 	namemorph := (TextMorph new contents: 'CALLS').
 	morph addMorph: namemorph.
 	namemorph position: ((morph position x)+(morph width)-(namemorph  width)-5)@yPosition.
-	calcmorph := (TextMorph new contents: (((overviewResults at: #fanout)/(overviewResults at: #calls)) asFloat roundDownTo: 0.001) asString).
+	calcmorph := (TextMorph new contents: (((overviewResults at: #fanout)/(overviewResults at: #calls)) asFloat printShowingMaxDecimalPlaces: 3) asString).
 	morph addMorph: calcmorph.
 	calcmorph position: ((morph position x)+(morph width)+5)@yPosition.
 

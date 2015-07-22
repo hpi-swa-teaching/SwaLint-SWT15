@@ -5,6 +5,7 @@ buildResultsListWith: aBuilder
 		model: self;
 		name: 'Results List';
 		list: #resultList;
+		icon: #iconAt:;
 		menu: #resultMenu:;
 		getIndex: #resultSelected;
 		setIndex: #resultSelected:;

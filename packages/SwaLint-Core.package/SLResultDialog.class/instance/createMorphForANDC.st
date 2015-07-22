@@ -7,7 +7,7 @@ createMorphForANDC
 	morph := RectangleMorph new.
 	morph extent: (self defaultMorphEntryWidth)@(self defaultMorphEntryHeight).
 	morph position: (self getMainMorphCenterX)@yPosition.
-	resultmorph := (TextMorph new contents: ((overviewResults at: #andc) asFloat roundDownTo: 0.001) asString).
+	resultmorph := (TextMorph new contents: ((overviewResults at: #andc) asFloat printShowingMaxDecimalPlaces: 3) asString).
 	morph addMorph: resultmorph.
 	resultmorph position: ((morph position x)+(morph width)-(resultmorph width)-5)@yPosition.
 	namemorph := (TextMorph new contents: 'ANDC').
