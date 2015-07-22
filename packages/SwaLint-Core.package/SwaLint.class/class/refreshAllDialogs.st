@@ -1,5 +1,5 @@
 initialize-release
 refreshAllDialogs
 	
-	SLAbstractDialog subclassesDo: [ :each |
+	SLDefaultDialog subclassesDo: [ :each |
 		[each allInstancesDo: [ :instance | instance refresh]] ifError: ["ignore"]].
