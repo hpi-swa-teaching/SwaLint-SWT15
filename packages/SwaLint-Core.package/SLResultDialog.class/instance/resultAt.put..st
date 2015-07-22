@@ -2,7 +2,6 @@ accessing-results
 resultAt: anInteger put: aBoolean
 	| target |
 	target := self results at: anInteger ifAbsent: [^ self].
-	
 	target hasDetails ifTrue: [
 		resultsSelected := self isMultiSelectable 
 			ifTrue: [
@@ -11,7 +10,7 @@ resultAt: anInteger put: aBoolean
 					ifFalse: [ resultsSelected copyWithout: target ]]
 			ifFalse: [
 				aBoolean
-					ifTrue: [Set new add: target; yourself]
-					ifFalse: [Set new]]].
+					ifTrue: [IdentitySet new add: target; yourself]
+					ifFalse: [IdentitySet new]]].
 
 	self changed: #browsable.

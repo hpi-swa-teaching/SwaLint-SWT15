@@ -4,4 +4,4 @@ selectInverseTestCategories
 	testCategoriesSelected := self testCategories asSet 
 		removeAll: testCategoriesSelected;
 		yourself.
-	self changed: #testCategorySelected; updateTests
+	self changed: #testCategorySelected; update.

@@ -17,9 +17,11 @@
 		"testsSelected",
 		"testIndex",
 		"testPattern",
-		"testCategoryPattern" ],
+		"testCategoryPattern",
+		"environment",
+		"selectByCategory" ],
 	"name" : "SLDefaultDialog",
 	"pools" : [
 		 ],
-	"super" : "SLAbstractDialog",
+	"super" : "Model",
 	"type" : "normal" }

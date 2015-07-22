@@ -14,4 +14,5 @@ filterTests
 									yourself].
 	self
 		changed: #testSelected;
-		changed: #runnable
+		changed: #runnable;
+		update.

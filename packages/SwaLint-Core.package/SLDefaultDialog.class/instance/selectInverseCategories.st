@@ -1,7 +1,7 @@
 accessing-categories
 selectInverseCategories
 
-	categoriesSelected := self categoryList asSet 
+	categoriesSelected := self categories asSet 
 		removeAll: categoriesSelected;
 		yourself.
-	self changed: #allSelections; changed: #categorySelected; updateClasses
+	self changed: #allSelections; changed: #categorySelected; update.

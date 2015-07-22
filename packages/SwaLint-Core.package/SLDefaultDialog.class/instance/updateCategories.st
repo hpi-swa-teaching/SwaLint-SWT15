@@ -5,5 +5,5 @@ updateCategories
 		ifTrue: [ Set new ]
 		ifFalse: [
 			categoriesSelected
-				select: [ :each | self categoryList includes: each ] ].
+				select: [ :each | self categories includes: each ] ].
 	self changed: #categoryList; changed: #categorySelected.

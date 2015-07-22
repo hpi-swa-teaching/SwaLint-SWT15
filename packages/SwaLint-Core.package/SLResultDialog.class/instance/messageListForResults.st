@@ -6,8 +6,8 @@ messageListForResults
 
 	^ resultsSelected 
 		inject: Set new
-		into: [:messages :result | result hasDetails ifTrue: [
+		into: [:messages :result |
 			result isSummary 
 				ifTrue: [self addSummaryResult: result toMessageList: messages]
-				ifFalse: [self addResult: result toMessageList: messages]].
+				ifFalse: [self addResult: result toMessageList: messages].
 			messages]

@@ -3,4 +3,4 @@ buttons
 
 	^ #(( 'Run Again' #run #runnable )
 		('Browse Selection' #browseSelection #browsable)
-		('Options' #openConfigureDialog #notRunning))
+		('Options' #openConfigureDialog true))

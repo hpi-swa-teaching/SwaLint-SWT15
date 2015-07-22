@@ -2,4 +2,4 @@ accessing-testCategories
 selectNoTestCategories
 
 	testCategoriesSelected := Set new.
-	self changed: #testCategorySelected; updateTests
+	self changed: #testCategorySelected; update.

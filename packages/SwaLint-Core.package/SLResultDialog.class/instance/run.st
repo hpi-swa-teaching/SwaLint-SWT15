@@ -6,7 +6,7 @@ run
 	SLResultDialog onEnvironment: 
 		(SLTestRunner onEnvironment: self environment).
 		
-	self changed: #close.
+	self close.
 
 	"self environment selectedTests: testsSelected.
 	self environment selectedClasses: classesSelected.

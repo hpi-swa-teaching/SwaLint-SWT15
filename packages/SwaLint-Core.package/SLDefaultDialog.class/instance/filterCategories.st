@@ -10,6 +10,6 @@ filterCategories
 		inject: Set new
 		into: [:matches :subPattern|
 			matches
-			addAll: (self categoryList select: [ :each | subPattern match: each]);
+			addAll: (self categories select: [ :each | subPattern match: each]);
 			yourself].
-	self changed: #categorySelected; updateClasses.
+	self changed: #categorySelected; update.

@@ -6,4 +6,5 @@ selectNoClasses
 	classesSelected := Set new.
 	self
 		changed: #classSelected;
-		changed: #runnable.
+		changed: #runnable;
+		update.

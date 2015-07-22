@@ -1,13 +1,10 @@
 plugins
-addPlugIn: aPlugInClass
+addPlugIn: aSLPlugInClass
 	"Register all tests offered by the plug-in class."
-	"self haltIf: [aPlugInClass name = 'SLPlugIn']."
-	Transcript show: 'addPlugIn: ', aPlugInClass name; cr.
-	aPlugInClass isInstalled ifFalse: [
-"		Transcript show: ' -> isInstalled'.
-		Transcript cr.
-"		^ self].
-	
-	aPlugInClass offeredTests do: [ :test |
-		self addTest: test].
-"	Transcript cr."
+	aSLPlugInClass subclasses 
+		do: [:subclass | self addPlugIn: subclass]
+		displayingProgress: ('Loading ', aSLPlugInClass).
+	aSLPlugInClass offeredTests
+		do: [ :test | self addTest: test]
+		displayingProgress: [ :test | 'Loading Test:',test name].
+	self refreshAllDialogs.
