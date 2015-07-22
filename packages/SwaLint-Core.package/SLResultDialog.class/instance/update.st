@@ -1,4 +1,5 @@
 updating
 update
 
-	self updateCategories; updateClasses; updateTestCategories; updateTests; updateResults.
+	super update.
+	self updateResults.

@@ -1,9 +1,9 @@
 updating
-findTestsForTestCategories: aCollection
+findTestsForSelectedTestCategories
 	| items chosenTests |
-	aCollection isEmpty 
+	testCategoriesSelected isEmpty 
 		ifTrue: [ ^ Set new ].
 	chosenTests := self environment ifNil: [Set new] ifNotNil: [self environment tests].
-	items := aCollection gather: [ :category | SwaLint testsAtCategory: category ].
+	items := testCategoriesSelected gather: [ :category | SwaLint testsAtCategory: category ].
 	items := items select: [ :each | (chosenTests collect: [ :test | test format]) includes: each format ].
 	^ items asSet
