@@ -1,8 +1,8 @@
 overview-pyramid
 createMorphForFANOUT
-	| morph resultmorph namemorph calcmorph yPosition |
+	| morph resultmorph namemorph yPosition |
 
-	yPosition := (8*self defaultMorphEntryHeight).
+	yPosition := (7*self defaultMorphEntryHeight).
 
 	morph := RectangleMorph new.
 	morph extent: ((self defaultMorphEntryWidth)+(5*(self defaultMorphEntryWidthExtension)))@(self defaultMorphEntryHeight).

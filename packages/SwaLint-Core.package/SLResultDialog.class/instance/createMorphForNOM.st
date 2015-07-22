@@ -2,7 +2,7 @@ overview-pyramid
 createMorphForNOM
 	| morph resultmorph namemorph calcmorph yPosition |
 
-	yPosition := (6*self defaultMorphEntryHeight).
+	yPosition := (5*self defaultMorphEntryHeight).
 
 	morph := RectangleMorph new.
 	morph extent: ((self defaultMorphEntryWidth)+(3*(self defaultMorphEntryWidthExtension)))@(self defaultMorphEntryHeight).

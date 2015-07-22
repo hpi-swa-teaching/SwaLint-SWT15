@@ -20,4 +20,4 @@ overviewPyramidMetric: aSLSystemTestObject
 	collection at: #andc put: (((aSLSystemTestObject allClasses collect: [:class | class testObject subclasses size]) sum ) / (collection at: #noc)) .
 	collection at: #ahh put: ((aSLSystemTestObject rootClasses collect: 
 		[:class | class resultOf: #heightOfInheritanceTree: ]) sum) / (aSLSystemTestObject rootClasses size).
-	^ self collectionResult: collection
+	^ (self collectionResult: collection) hideAlways; yourself

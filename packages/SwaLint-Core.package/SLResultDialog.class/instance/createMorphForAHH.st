@@ -2,7 +2,7 @@ overview-pyramid
 createMorphForAHH
 	| morph resultmorph namemorph yPosition |
 
-	yPosition := (3*self defaultMorphEntryHeight).
+	yPosition := (2*self defaultMorphEntryHeight).
 
 	morph := RectangleMorph new.
 	morph extent: (self defaultMorphEntryWidth)@(self defaultMorphEntryHeight).

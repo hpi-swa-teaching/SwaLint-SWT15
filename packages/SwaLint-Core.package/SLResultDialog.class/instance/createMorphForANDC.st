@@ -2,7 +2,7 @@ overview-pyramid
 createMorphForANDC
 	| morph resultmorph namemorph yPosition |
 
-	yPosition := (2*self defaultMorphEntryHeight).
+	yPosition := (1*self defaultMorphEntryHeight).
 
 	morph := RectangleMorph new.
 	morph extent: (self defaultMorphEntryWidth)@(self defaultMorphEntryHeight).
