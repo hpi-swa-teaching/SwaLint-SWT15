@@ -3,18 +3,17 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DebugMode" ],
+		 ],
 	"commentStamp" : "NR 1/9/2008 16:04",
 	"instvars" : [
 		"systemClasses",
-		"tests",
-		"classes",
-		"testCategories",
-		"classCategories",
-		"categories",
 		"debug",
 		"testDict",
 		"classDict",
+		"testsModel",
+		"testCategoriesModel",
+		"classCategoriesModel",
+		"classesModel",
 		"categoryDict" ],
 	"name" : "SLEnvironment",
 	"pools" : [

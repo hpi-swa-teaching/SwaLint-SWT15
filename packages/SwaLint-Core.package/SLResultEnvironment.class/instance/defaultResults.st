@@ -5,6 +5,6 @@ defaultResults
 		withModel: self withMessage: #selectableResults
 		withAsStringSelector: #format:).
 	
-	tests addDependent: results.
-	classes addDependent: results.
+	testsModel addDependent: results.
+	classesModel addDependent: results.
 	results addDependent: self.  

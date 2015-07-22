@@ -2,8 +2,8 @@ initialize-release
 initialize
 
 	super initialize.
-	self initializeSwaLint.
 	self
+		initializeInstanceVariables;
 		defaultClassCategories;
 		defaultTestCategories;
 		fetchSystemClasses;		

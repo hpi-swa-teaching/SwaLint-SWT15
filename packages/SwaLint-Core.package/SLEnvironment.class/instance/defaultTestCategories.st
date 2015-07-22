@@ -1,15 +1,15 @@
 initialize-release
 defaultTestCategories
 	
-	testCategories := (SLMultipleSelectionModel 
+	testCategoriesModel := (SLMultipleSelectionModel 
 		withModel: self withMessage: #selectableTestCategories)
 		menuGetter: #testCategoryMenuFor:in:.
 		
-	tests := (SLMultipleSelectionModel 
+	testsModel := (SLMultipleSelectionModel 
 		withModel: self withMessage: #selectableTests 
 		withAsStringSelector: #format)
 		menuGetter: #testsMenuFor:in:.
 	
-	testCategories addDependent: tests.
-	testCategories addDependent: self.
-	tests addDependent: self
+	testCategoriesModel addDependent: testsModel.
+	testCategoriesModel addDependent: self.
+	testsModel addDependent: self

@@ -1,4 +1,4 @@
-updating
+initialize-release
 refreshAllDialogs
 	
 	SLAbstractDialog subclassesDo: [ :each |

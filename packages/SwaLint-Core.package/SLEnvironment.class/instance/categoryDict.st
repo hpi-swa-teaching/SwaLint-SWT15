@@ -1,4 +1,4 @@
-SwaLint
+accessing
 categoryDict
 
-	^ categoryDict
+	^ categoryDict.

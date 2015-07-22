@@ -1,4 +1,4 @@
-SwaLint
+accessing
 testDict: aDictionary
 
 	testDict := aDictionary.

@@ -2,5 +2,5 @@ updating
 reload
 	"Reload the data I am based on"
 	
-	self classCategories refreshList.
-	self testCategories refreshList.
+	self classCategoriesModel refreshList.
+	self testCategoriesModel refreshList.

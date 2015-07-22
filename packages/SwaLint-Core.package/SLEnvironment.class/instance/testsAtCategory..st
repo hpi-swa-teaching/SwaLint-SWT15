@@ -1,5 +1,5 @@
 SwaLint
 testsAtCategory: aSymbol
 
-	^ (self categories at: aSymbol) collect: [ :test | 
+	^ (self categoryDict at: aSymbol) collect: [ :test | 
 		self testDataFor: test]

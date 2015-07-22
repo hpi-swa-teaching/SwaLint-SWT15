@@ -8,4 +8,4 @@ addPlugIn: aSLPlugInClass
 		self addTest: test].
 
 	self reload.
-	self refreshAllDialogs.
+	SwaLint refreshAllDialogs.

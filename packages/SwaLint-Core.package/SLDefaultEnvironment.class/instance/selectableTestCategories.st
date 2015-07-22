@@ -1,4 +1,4 @@
 accessing
 selectableTestCategories
 
-	^ self categories keys sorted asArray
+	^ self categoryDict keys sorted asArray

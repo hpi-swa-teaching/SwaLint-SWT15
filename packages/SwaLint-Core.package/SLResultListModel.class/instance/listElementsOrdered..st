@@ -1,6 +1,6 @@
 list ordering
 listElementsOrdered: aCollection
 
-	^ (listOrdering = #tests) 
+	^ (listOrdering = #testsModel) 
 		ifTrue: [self testOrderedList: aCollection]
 		ifFalse: [self objectOrderedList: aCollection]

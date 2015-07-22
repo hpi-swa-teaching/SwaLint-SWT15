@@ -1,7 +1,7 @@
 initialize-release
 defaultSelections
 	
-	classCategories selectAll.
-	classes selectAll.
-	testCategories selectAll.
-	tests selectAll.
+	classCategoriesModel selectAll.
+	classesModel selectAll.
+	testCategoriesModel selectAll.
+	testsModel selectAll.

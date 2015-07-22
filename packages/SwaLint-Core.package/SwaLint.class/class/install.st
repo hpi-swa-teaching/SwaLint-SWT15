@@ -3,4 +3,5 @@ install
 
 	(TheWorldMenu respondsTo: #unregisterOpenCommand:)
 		ifTrue: [TheWorldMenu unregisterOpenCommand: self swaLint].
-	TheWorldMenu registerOpenCommand: {self swaLint. {self. #new}}.
+	TheWorldMenu registerOpenCommand: {self swaLint. {SwaLint. #open}}.
+	SwaLint debugMode: SLPreferences DebugMode.

@@ -1,4 +1,4 @@
 accessing
 selectedTests
 
-	^ self tests select: [ :test | test isUserSelected]
+	^ self testsModel select: [ :test | test isUserSelected]

@@ -1,7 +1,7 @@
-debugging
+-- all --
 warnOfAlreadyExists: aTest
 
-	self 
+	SwaLint 
 		debugCr;
 		debugOut: 'WARNING: ';
 		debugOut: aTest asString;

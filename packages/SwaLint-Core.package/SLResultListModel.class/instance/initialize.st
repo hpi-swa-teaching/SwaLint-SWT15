@@ -5,4 +5,4 @@ initialize
 	
 	self 
 		multipleSelections: true;
-		listOrderBy: #tests.
+		listOrderBy: #testsModel.

@@ -1,4 +1,4 @@
 accessing
 children
 
-	^ self classes
+	^ self classesModel

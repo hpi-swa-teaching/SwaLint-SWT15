@@ -8,13 +8,13 @@ drawUserInterface
 	
 	(self window)
 		reset;
-		addMorph: (self environment classCategories listMorph) 
+		addMorph: (self environment classCategoriesModel listMorph) 
 			fullFrame: (LayoutFrame fractions: (0.0 @ 0.0 extent: 0.25 @ 0.6));
-		addMorph: (self environment classes listMorph)
+		addMorph: (self environment classesModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.25 @ 0.0 extent: 0.25 @ 0.6));
-		addMorph: (self environment testCategories listMorph)
+		addMorph: (self environment testCategoriesModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.5 @ 0.0 extent: 0.5 @ 0.3));
-		addMorph: (self environment tests listMorph)
+		addMorph: (self environment testsModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.5 @ 0.3 extent: 0.5 @ 0.3));
 		addMorph: resultsPane
 			fullFrame: (LayoutFrame fractions: (0.0 @ 0.6 extent: 1 @ 0.4)

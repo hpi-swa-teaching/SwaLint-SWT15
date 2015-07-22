@@ -5,5 +5,5 @@ checkTestSymbol: aSymbol
 	(self testExists: aSymbol)
 		ifTrue: [ self warnOfAlreadyExists: aSymbol ]
 		ifFalse: [
-			self debugCr; 
+			SwaLint debugCr; 
 				debugOut: aSymbol, ' added.'].

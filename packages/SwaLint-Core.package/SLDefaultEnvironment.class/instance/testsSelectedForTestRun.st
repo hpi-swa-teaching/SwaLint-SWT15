@@ -1,7 +1,7 @@
 test selections
 testsSelectedForTestRun
 
-	^ self tests selectedItems 
+	^ self testsModel selectedItems 
 		inject: OrderedCollection new
 		into: [ :collection :element |
 			collection add: element;

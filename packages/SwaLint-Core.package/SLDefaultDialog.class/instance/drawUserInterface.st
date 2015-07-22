@@ -7,15 +7,15 @@ drawUserInterface
 
 	(self window)
 		reset;
-		addMorph: (self environment classCategories listMorph) 
+		addMorph: (self environment classCategoriesModel listMorph) 
 			fullFrame: (LayoutFrame fractions: (0.0 @ 0.0 extent: 0.25 @ 1)
 				offsets: (0 @ 0 corner: 0 @ -30));
-		addMorph: (self environment classes listMorph)
+		addMorph: (self environment classesModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.25 @ 0.0 extent: 0.25 @ 1)
 					offsets: (0 @ 0 corner: 0 @ -30));
-		addMorph: (self environment testCategories listMorph)
+		addMorph: (self environment testCategoriesModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.5 @ 0.0 extent: 0.5 @ 0.5));
-		addMorph: (self environment tests listMorph)
+		addMorph: (self environment testsModel listMorph)
 			fullFrame: (LayoutFrame fractions: (0.5 @ 0.5 extent: 0.5 @ 0.5)
 				offsets: (0 @ 0 corner: 0 @ -30));
 		addMorph: buttonBar

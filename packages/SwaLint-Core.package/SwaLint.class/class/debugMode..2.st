@@ -1,4 +1,4 @@
-SwaLint
+debugging
 debugMode
 
 	^ debug

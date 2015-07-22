@@ -1,4 +1,4 @@
 accessing
-tests
+testsModel
 
 	^ self testDictionary values

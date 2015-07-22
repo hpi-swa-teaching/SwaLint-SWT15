@@ -1,5 +1,5 @@
-instance creation
-initialize
+finalization
+open
 
 	| environment |
 	environment := SLDefaultEnvironment new

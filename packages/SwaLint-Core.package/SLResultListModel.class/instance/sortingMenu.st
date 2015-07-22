@@ -3,10 +3,10 @@ sortingMenu
 
 	^ (MenuMorph new) 
 		defaultTarget: self;
-		add: 'tests' translated 
+		add: #testsModel translated 
 			selector: #listOrderBy: 
-			argument: #tests;
-		add: 'classes' translated 
+			argument: #testsModel;
+		add: #classesModel translated 
 			selector: #listOrderBy: 
-			argument: #classes;
+			argument: #classesModel;
 		yourself

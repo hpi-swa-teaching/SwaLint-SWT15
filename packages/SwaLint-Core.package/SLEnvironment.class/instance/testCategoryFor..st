@@ -1,5 +1,5 @@
 SwaLint
 testCategoryFor: aSymbol
 
-	^ self categories
+	^ self categoryDict
 		at: aSymbol ifAbsentPut: [OrderedCollection new]

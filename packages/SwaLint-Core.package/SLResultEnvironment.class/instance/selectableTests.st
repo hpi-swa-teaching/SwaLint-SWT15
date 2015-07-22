@@ -1,7 +1,7 @@
 accessing
 selectableTests
 
-	^ self testCategories selectedItems 
+	^ self testCategoriesModel selectedItems 
 		inject: OrderedCollection new 
 		into: [ :selectableTests :each |
 			selectableTests 

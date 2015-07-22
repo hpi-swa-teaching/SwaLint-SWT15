@@ -1,4 +1,4 @@
-SwaLint
+debugging
 debugOut: anObject
 
 	self debug ifTrue: [

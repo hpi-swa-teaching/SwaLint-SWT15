@@ -4,6 +4,6 @@ selectClassesByFilter
 	| pattern matches |
 	pattern := UIManager default request: 'Pattern to select classes' initialAnswer: '*'.
 	
-	classes list withIndexDo: [ :each :index | 
+	classesModel list withIndexDo: [ :each :index | 
 		matches := pattern match: each.
-		classes listSelectionAt: index put: matches ].
+		classesModel listSelectionAt: index put: matches ].

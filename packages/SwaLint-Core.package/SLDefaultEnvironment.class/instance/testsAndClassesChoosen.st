@@ -1,4 +1,4 @@
 accessing
 testsAndClassesChoosen
 	
-	^ tests anySelected and: [classes anySelected]
+	^ testsModel anySelected and: [classesModel anySelected]
