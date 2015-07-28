@@ -10,6 +10,6 @@ showOverviewPyramid
 		topFraction: 0 offset: 0;
 		rightFraction: 0.5 offset: 0;
 		bottomFraction: 1 offset: 0.
-	mainMorph 
+	overviewpyramidMorph 
 		show;
 		submorphsDo: [ :each | each show ].

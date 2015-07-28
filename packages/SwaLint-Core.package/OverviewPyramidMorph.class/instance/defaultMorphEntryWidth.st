@@ -1,4 +1,4 @@
-overview-pyramid
+positioning
 defaultMorphEntryWidth
 
 	^ 80
