@@ -1,10 +1,12 @@
 tests
 classAMW: aSLClassTestObject
+	<slTestName: 'AMW of a class [AWM]'
+	description: 'Average Method Weight' >
 
 	| amw methodNumber totalWeight |
 	
-	methodNumber := (aSLClassTestObject resultOf: #numberOfMethods) result.
-	totalWeight := (aSLClassTestObject resultOf: #weightedMethodCount) result.
+	methodNumber := (aSLClassTestObject resultOf: #numberOfMethods:) result.
+	totalWeight := (aSLClassTestObject resultOf: #weightedMethodCount:) result.
 	amw := (methodNumber = 0) ifTrue: [ 0 ]
 								   ifFalse: [ totalWeight / methodNumber ].
 	

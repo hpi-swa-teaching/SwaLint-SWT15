@@ -3,7 +3,7 @@ format: aRule
 	"Answer a readable version of what I stand for"
 	
 	| item s |
-	item := (aRule = #testsModel) 
+	item := (aRule = #tests) 
 		ifTrue: [self testObject]
 		ifFalse: [self testData].
 	s := self indent, item name, ': ', self valueAsString.

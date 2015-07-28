@@ -1,4 +1,4 @@
--- all --
+initialize-release
 warnOfAlreadyExists: aTest
 
 	SwaLint 

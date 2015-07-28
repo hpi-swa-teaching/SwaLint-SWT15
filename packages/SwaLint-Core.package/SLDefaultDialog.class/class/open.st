@@ -1,4 +1,4 @@
 instance-creation
 open
 	
-	^ self onEnvironment: SLDefaultEnvironment new
+	^ self onEnvironment: SLDefaultEnvironment new.

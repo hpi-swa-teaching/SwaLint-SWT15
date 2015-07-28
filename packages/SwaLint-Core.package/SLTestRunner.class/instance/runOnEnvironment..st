@@ -9,6 +9,7 @@ runOnEnvironment: anEnvironment
 		dataFromEnvironment: anEnvironment;
 		run.
 		
-	^ SLResultEnvironment 
-		fromTests: self selectedTests 
-		andTestObjects: self testObjects
+	^ (SLResultEnvironment 
+		fromTests: self selectedTests
+		andTestObjects: self testObjects)
+		dataFromEnvironment: anEnvironment

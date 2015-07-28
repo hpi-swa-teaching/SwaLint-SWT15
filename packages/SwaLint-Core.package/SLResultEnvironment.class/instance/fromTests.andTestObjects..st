@@ -4,6 +4,6 @@ fromTests: aTestCollection andTestObjects: aTestObjectCollection
 	self 
 		originalTests: aTestCollection;
 		originalTestObjects: aTestObjectCollection;
-		defaultResults;
-		reload;
-		defaultSelections.
+		defaultClasses;
+		defaultTests;
+		defaultResults.

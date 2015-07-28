@@ -1,6 +1,9 @@
 tests
 csMethodHasDotAfterReturn: aSLMethodTestObject
 
+	<slTestName: nil
+	description: '(private) Test a single method for dotAfterReturn'>
+
 	| result |
 	aSLMethodTestObject shouldBeMethod.
 	result := self hasDotAfterReturn: aSLMethodTestObject cleanSource.

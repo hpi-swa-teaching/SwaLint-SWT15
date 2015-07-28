@@ -3,7 +3,7 @@ indirectlyAccessedVars: aSLMethodTestObject in: aSLClassTestObject
 
 	| usedVars accessorsOfClass literals instVars |
 
-	accessorsOfClass := aSLClassTestObject resultOf: #allAccessors.
+	accessorsOfClass := aSLClassTestObject resultOf: #allAccessors:.
 	usedVars := Set new.
 	instVars := aSLClassTestObject testObject allInstVarNames.
 	literals := aSLMethodTestObject testObject allLiterals.
@@ -13,6 +13,6 @@ indirectlyAccessedVars: aSLMethodTestObject in: aSLClassTestObject
 			literals includes: a methodSelector ]
 		thenCollect: [ :a | 
 			aSLClassTestObject variableForSelector: 
-				(instVars at: (a resultValueOf: #accessedVar)) ]).
+				(instVars at: (a resultValueOf: #accessedVar:)) ]).
 	
 	^ usedVars
