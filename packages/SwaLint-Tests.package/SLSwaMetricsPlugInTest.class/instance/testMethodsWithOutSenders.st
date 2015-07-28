@@ -2,5 +2,5 @@ testing
 testMethodsWithOutSenders
 	self 
 		test: #methodsWithoutSenders:
-		on: {SLDummyClass05}
+		on: {SLMethodWithoutSendersClass}
 		expectedResults: {2}

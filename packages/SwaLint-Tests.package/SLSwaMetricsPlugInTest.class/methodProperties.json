@@ -4,10 +4,11 @@
 	"instance" : {
 		"testBadlyFormattedMethods" : "TS 7/1/2015 11:51",
 		"testCommentedMethods" : "TS 7/1/2015 11:15",
+		"testDebugSnippets" : "TS 7/29/2015 00:17",
 		"testGlobalState" : "TS 7/1/2015 12:54",
 		"testInterestingMethods" : "TS 7/1/2015 13:23",
 		"testMetaProgramming" : "TS 7/1/2015 13:34",
-		"testMethodsWithOutSenders" : "TS 7/28/2015 23:38",
-		"testNilProgramming" : "TS 7/1/2015 14:30",
+		"testMethodsWithOutSenders" : "TS 7/29/2015 00:02",
+		"testNilProgramming" : "TS 7/29/2015 00:10",
 		"testNoClassComments" : "TS 7/1/2015 14:36",
 		"testUnclassifiedMethods" : "TS 7/1/2015 14:44" } }
