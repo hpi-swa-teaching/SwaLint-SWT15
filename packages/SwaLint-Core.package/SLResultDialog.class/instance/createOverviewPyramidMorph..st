@@ -9,7 +9,7 @@ createOverviewPyramidMorph: aTool
 	overviewResults := self results.
 	Transcript show: overviewResults asString."
 
-	overviewResults := (self results detect: [:each | (each testData symbol = #overviewPyramidMetric:) and: (each result notNil)] ifNone: SLResult new) result.
+	overviewResults := (self results detect: [:each | (each testData symbol = #overviewPyramidMetric:) and: ((each isKindOf: SLErrorResult) ifTrue: [false] ifFalse: [each result notNil])] ifNone: SLResult new) result.
 	"overviewResults := self results."
 	"Transcript show: overviewResults asString."
 
