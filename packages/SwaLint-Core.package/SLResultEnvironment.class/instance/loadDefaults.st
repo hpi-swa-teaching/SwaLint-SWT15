@@ -3,6 +3,6 @@ loadDefaults
 	"default the Environment"
 
 	self
-		defaultResults;
-		reload;
-		defaultSelections.
+		defaultClasses;
+		defaultTests;
+		defaultResults.
