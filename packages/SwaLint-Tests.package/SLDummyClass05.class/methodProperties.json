@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"methodNeverCalled" : "TS 7/1/2015 14:14",
+		"anotherMethodNeverCalled" : "TS 7/28/2015 23:38",
+		"anotherOnceCalledMethod" : "TS 7/28/2015 23:37",
+		"methodNeverCalled" : "TS 7/28/2015 23:37",
 		"onceCalledMethod" : "TS 7/1/2015 14:13" } }

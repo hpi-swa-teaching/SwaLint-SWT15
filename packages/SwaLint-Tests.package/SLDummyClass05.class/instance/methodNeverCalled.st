@@ -1,5 +1,6 @@
 unsentMethods
 methodNeverCalled
 
-	| caller |
+	| caller anotherCaller |
 	caller := #onceCalledMethod.
+	anotherCaller := #anotherOnceCalledMethod.
