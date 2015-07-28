@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"dataFromEnvironment:" : "JTM 7/28/2015 10:45" },
 	"instance" : {
 		"addPlugIn:" : "JTM 7/22/2015 14:45",
 		"addTest:" : "NH 7/15/2015 22:41",
@@ -15,6 +15,7 @@
 		"classMenuFor:in:" : "AT 5/8/2008 09:32",
 		"classesModel" : "JTM 7/22/2015 12:30",
 		"classesModel:" : "JTM 7/22/2015 12:30",
+		"dataFromEnvironment:" : "JTM 7/28/2015 10:48",
 		"defaultClassCategories" : "JTM 7/22/2015 12:14",
 		"defaultTestCategories" : "JTM 7/22/2015 12:13",
 		"initializeInstanceVariables" : "JTM 7/22/2015 13:53",

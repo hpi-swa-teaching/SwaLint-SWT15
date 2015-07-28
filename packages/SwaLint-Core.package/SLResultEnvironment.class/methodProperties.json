@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"fromTests:andTestObjects:" : "AT 5/8/2008 10:08" },
+		"fromTests:andTestObjects:" : "JTM 7/28/2015 10:41" },
 	"instance" : {
 		"addResultsOf:from:andChildrenTo:" : "AT 5/8/2008 10:10",
 		"addResultsOf:from:to:" : "AT 5/27/2008 18:51",
 		"defaultClassCategories" : "JTM 7/22/2015 12:14",
 		"defaultResults" : "JTM 7/22/2015 12:14",
 		"defaultSelections" : "JTM 7/22/2015 12:14",
-		"fromTests:andTestObjects:" : "NR 1/31/2008 21:10",
 		"initialize" : "AT 2/4/2008 14:11",
+		"loadDefaults" : "JTM 7/28/2015 10:38",
 		"originalTestObjects" : "AT 5/8/2008 10:10",
 		"originalTestObjects:" : "AT 2/3/2008 21:17",
 		"originalTests" : "AT 5/8/2008 10:10",
