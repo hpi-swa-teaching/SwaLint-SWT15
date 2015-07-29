@@ -6,4 +6,4 @@ countUsedBaseElementsOf: aSLClassTestObject
 	baseInstanceMethods := self getBaseClassInstanceMethodsUsedIn: aSLClassTestObject.
 	baseInstanceVariables := self getBaseClassInstanceVaribalesUsedIn: aSLClassTestObject.
 
-	^ baseInstanceMethods size + baseInstanceVariables size.
+	^ baseInstanceMethods size + baseInstanceVariables size

@@ -1,4 +1,6 @@
 accessing
 icon
 
-	^ icon
+	^ SwaLint ColorizeResults
+		ifTrue: [icon]
+		ifFalse: [nil]

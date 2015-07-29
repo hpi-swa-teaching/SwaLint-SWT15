@@ -1,12 +1,13 @@
 updating
 updateClasses
+
 	| classesForCategories |
 	classesForCategories := self findClassesForSelectedCategories.
-	classes := classesForCategories asArray.
+	classes := classesForCategories asArray sorted: [ :first :second | first name <= second name ].
 	classIndex := 0.
 	classesSelected := classesSelected isNil
 		ifTrue: [ classesForCategories ]
 		ifFalse: [ 
 			classesSelected
-				select: [ :each | classesForCategories includes: each ] ].
+				select: [ :each | classesForCategories includes: each ]].
 	self changed: #classList; changed: #classSelected.
