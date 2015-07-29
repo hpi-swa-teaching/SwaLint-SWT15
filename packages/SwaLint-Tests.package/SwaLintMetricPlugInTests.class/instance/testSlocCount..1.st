@@ -1,5 +1,5 @@
 testing
-test03testSloccountTest
+testSlocCount
 
 	self resetTestSystem.
 	

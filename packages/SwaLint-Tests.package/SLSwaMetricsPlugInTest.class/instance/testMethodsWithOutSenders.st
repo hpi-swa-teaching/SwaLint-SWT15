@@ -1,6 +1,6 @@
 testing
 testMethodsWithOutSenders
-	self 
-		test: #methodsWithoutSenders:
-		on: {SLMethodWithoutSendersClass}
-		expectedResults: {2}
+    self 
+        test: #methodsWithoutSenders:
+        on: {SLMethodWithoutSendersClass}
+        expectedResults: {2}

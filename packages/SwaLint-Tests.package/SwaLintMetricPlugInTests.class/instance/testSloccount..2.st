@@ -1,5 +1,5 @@
-as yet unclassified
-testSlocCount
+testing
+testSloccount
 
 	self resetTestSystem.
 	
