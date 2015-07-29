@@ -1,8 +1,8 @@
 method tests
 isPrivate: aSLMethodTestObject
 
-	<slTestName: nil 
-	description: 'Method is private'>
+	<slTestName: 'Method is private' 
+	description: 'Answers whether a method is private/protected or not.'>
 
 	aSLMethodTestObject shouldBeMethod.
 	^ self booleanResult: 

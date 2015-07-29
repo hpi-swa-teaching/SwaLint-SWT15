@@ -1,5 +1,6 @@
 tests
 avgLOCperMethod: aSLClassTestObject
+
 	<slTestName: 'Average LOC per Method'
 	description: 'Answer the average lines of code per method of a class.' >
 
