@@ -10,6 +10,7 @@ hideOverviewPyramid
 		topFraction: 0 offset: 0;
 		rightFraction: 1 offset: 0;
 		bottomFraction: 1 offset: 0.
-	mainMorph 
-		hide;
-		submorphsDo: [ :each | each hide ].
+	overviewpyramidMorph ifNotNil: [
+		overviewpyramidMorph
+			hide;
+			submorphsDo: [ :each | each hide ].]

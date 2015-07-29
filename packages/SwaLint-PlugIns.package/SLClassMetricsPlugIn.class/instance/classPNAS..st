@@ -1,5 +1,6 @@
 tests
 classPNAS: aSLClassTestObject
+
 	<slTestName: 'PNAS of a class [PNAS]'
 	description: 'Percentage of newly added Services' >
 	
