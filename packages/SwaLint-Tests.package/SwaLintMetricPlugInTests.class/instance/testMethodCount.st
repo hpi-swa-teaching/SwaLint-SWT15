@@ -1,10 +1,5 @@
-<<<<<<< HEAD:packages/SwaLint-Tests.package/SwaLintMetricPlugInTests.class/instance/test02testMethodCountTest.st
-testing
-test02testMethodCountTest
-=======
 as yet unclassified
 testMethodCount
->>>>>>> SWT15/dev:packages/SwaLint-Tests.package/SwaLintMetricPlugInTests.class/instance/testMethodCount.st
 
 	self resetTestSystem.
 	
