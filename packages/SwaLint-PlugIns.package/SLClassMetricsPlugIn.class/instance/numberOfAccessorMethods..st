@@ -1,6 +1,5 @@
 tests
 numberOfAccessorMethods: aSLClassTestObject
-	"Answer the number of accessor methods"
 
 	<slTestName: 'Number of Accessor Methods [NOAM]'
 	description: 'Answer the number of accessor methods of a class.' >

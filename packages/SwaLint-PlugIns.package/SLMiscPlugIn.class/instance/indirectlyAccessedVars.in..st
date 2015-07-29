@@ -7,7 +7,7 @@ indirectlyAccessedVars: aSLMethodTestObject in: aSLClassTestObject
 	usedVars := Set new.
 	instVars := aSLClassTestObject testObject allInstVarNames.
 	literals := aSLMethodTestObject testObject allLiterals.
-	
+
 	usedVars addAll: (accessorsOfClass 
 		select: [ :a | 
 			literals includes: a methodSelector ]

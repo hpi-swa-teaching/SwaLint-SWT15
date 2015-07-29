@@ -1,5 +1,6 @@
 tests
 classNAS: aSLClassTestObject
+
 	<slTestName: 'NAS of a class [NAS]'
 	description: 'Number of added Services' >
 	

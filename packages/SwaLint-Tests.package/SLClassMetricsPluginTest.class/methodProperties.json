@@ -4,6 +4,7 @@
 	"instance" : {
 		"testAvgLOCperMethod" : "NA 6/3/2015 16:45",
 		"testBaseClassOverridingRatio" : "NA 6/3/2015 16:45",
+		"testBaseClassUsageRatio" : "NA 7/29/2015 10:29",
 		"testClassLOC" : "NA 6/3/2015 16:45",
 		"testCompareNumberOfMethods" : "NA 6/3/2015 16:45",
 		"testCompareWeightedMethodCount" : "NA 6/3/2015 16:45",
@@ -13,4 +14,5 @@
 		"testNumberOfClassMethods" : "NA 6/3/2015 16:45",
 		"testNumberOfInstanceMethods" : "NA 6/3/2015 16:45",
 		"testNumberOfMethods" : "NA 6/3/2015 16:45",
+		"testNumberOfProtectedMethods" : "NA 7/25/2015 18:58",
 		"testWeightedMethodCount" : "NA 6/3/2015 16:46" } }

@@ -1,7 +1,8 @@
 tests
 classAMW: aSLClassTestObject
-	<slTestName: 'AMW of a class [AWM]'
-	description: 'Average Method Weight' >
+
+	<slTestName: 'Average Method Weight of a class [AMW]'
+	description: 'Answers the Average Method Weight of a class.' >
 
 	| amw methodNumber totalWeight |
 	

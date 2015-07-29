@@ -1,5 +1,6 @@
 tests
 baseClassOverridingRatio: aSLClassTestObject
+
 	<slTestName: 'Base Class Overriding Ratio [BOvR]'
 	description: 'Answer the number of methods overriding methods in the superclass divided by the total number of methods defined in a class.' >
 	
