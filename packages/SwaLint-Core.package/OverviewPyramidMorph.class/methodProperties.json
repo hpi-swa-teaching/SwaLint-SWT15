@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newWithResults:" : "NH 7/28/2015 14:10" },
+	"instance" : {
+		"buildEntries" : "NH 7/28/2015 21:55",
+		"buildMorphs" : "NH 7/28/2015 14:12",
+		"defaultMorphEntryHeight" : "NH 7/28/2015 11:43",
+		"defaultMorphEntryWidth" : "NH 7/28/2015 11:43",
+		"defaultMorphEntryWidthExtension" : "NH 7/28/2015 11:43",
+		"formatSymbol:" : "NH 7/28/2015 13:41",
+		"getMainMorphCenterX" : "NH 7/28/2015 11:44",
+		"initialize" : "NH 7/28/2015 14:24",
+		"results" : "NH 7/28/2015 13:06",
+		"results:" : "NH 7/28/2015 13:06" } }

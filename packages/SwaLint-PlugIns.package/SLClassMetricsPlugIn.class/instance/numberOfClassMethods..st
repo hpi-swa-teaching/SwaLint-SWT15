@@ -1,8 +1,7 @@
 tests
 numberOfClassMethods: aSLClassTestObject
-	"Answer the number of class methods defined in the argument"
 	
-	<slTestName: 'Number of Class Methods [NOcM]'
+	<slTestName: 'Number of Class Methods [NOCM]'
 	description: 'Answer the number of class methods of a class.' >
 
 	^ self integerResult:

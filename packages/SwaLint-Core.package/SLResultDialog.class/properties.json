@@ -12,7 +12,8 @@
 		"resultsSelected",
 		"overviewResults",
 		"mainMorph",
-		"resultPanel" ],
+		"resultPanel",
+		"overviewpyramidMorph" ],
 	"name" : "SLResultDialog",
 	"pools" : [
 		 ],

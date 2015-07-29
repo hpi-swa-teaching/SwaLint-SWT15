@@ -4,7 +4,6 @@
 	"instance" : {
 		"plugInClass" : "TS 7/1/2015 14:08",
 		"setUp" : "TS 7/1/2015 13:59",
-		"test01testClasscountTest" : "TS 7/1/2015 15:34",
-		"test02testMethodCountTest" : "TS 7/1/2015 15:38",
-		"test03testMethodsWithoutSendersTest" : "TS 7/1/2015 14:45",
-		"test04testSloccountTest" : "TS 7/1/2015 15:40" } }
+		"testClassCount" : "NA 7/29/2015 11:12",
+		"testMethodCount" : "NA 7/29/2015 11:12",
+		"testSlocCount" : "NA 7/29/2015 11:12" } }
