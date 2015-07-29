@@ -1,4 +1,4 @@
 accessing
 categoryDict
 
-	^ categoryDict.
+	^ categoryDict

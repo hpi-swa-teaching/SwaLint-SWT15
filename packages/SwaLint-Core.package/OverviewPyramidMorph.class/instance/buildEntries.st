@@ -4,4 +4,4 @@ buildEntries
 	| i j |
 	i := 0.
 	j := 2.
-	self buildDictionary do: [ :each | Transcript show: each,'cr'. Transcript show: (self buildDictionary size). self createMorphFor: (self formatSymbol: each) withValue: (self results at: each asSymbol) andValForCalc: ((j <= (self buildDictionary size)) ifTrue: [(self results at: (self buildDictionary at: j) asSymbol)] ifFalse: [nil]) andOffsetX: (self xOffset)+i Y:  (self yOffset)+i addCalculation: ((each = #fanout or: each = #cyclo) ifTrue: [false] ifFalse: [true]). i := i+1. j := j+1].
+	self buildDictionary do: [ :each | self createMorphFor: (self formatSymbol: each) withValue: (self results at: each asSymbol) andValForCalc: ((j <= (self buildDictionary size)) ifTrue: [(self results at: (self buildDictionary at: j) asSymbol)] ifFalse: [nil]) andOffsetX: (self xOffset)+i Y:  (self yOffset)+i addCalculation: ((each = #fanout or: each = #cyclo) ifTrue: [false] ifFalse: [true]). i := i+1. j := j+1].

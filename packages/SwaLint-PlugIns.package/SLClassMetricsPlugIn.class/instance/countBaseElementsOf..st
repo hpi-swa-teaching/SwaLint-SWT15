@@ -10,4 +10,4 @@ countBaseElementsOf: aSLClassTestObject
 
 	^ (instanceMethods union: superInstanceMethods) size +
 		(aSLClassTestObject instanceVariables) size +
-		(aSLClassTestObject superInstanceVariables) size.
+		(aSLClassTestObject superInstanceVariables) size

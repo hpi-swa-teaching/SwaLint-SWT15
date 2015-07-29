@@ -5,6 +5,6 @@ newWithResults: aDictionary
 	temp := self new
 		results: aDictionary.
 	temp buildMorphs.
-	^ temp.
+	^ temp
 
 	
