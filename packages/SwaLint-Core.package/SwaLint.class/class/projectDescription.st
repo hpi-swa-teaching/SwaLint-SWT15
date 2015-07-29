@@ -10,7 +10,7 @@ projectDescription
 	Tobias Pape,
 	Nico Rehwaldt and
 	Arian Treffer,
-	Jan-Tobias Matysik
+	Jan-Tobias Matysik,
 	Siegfried Horschig,
 	Nico Aechtner,
 	Toni Stachewicz and
