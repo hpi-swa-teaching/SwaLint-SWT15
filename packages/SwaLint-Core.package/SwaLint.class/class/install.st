@@ -1,7 +1,9 @@
 finalization
 install
 
+	self unload.
 	(TheWorldMenu respondsTo: #unregisterOpenCommand:)
 		ifTrue: [TheWorldMenu unregisterOpenCommand: self swaLint].
 	TheWorldMenu registerOpenCommand: {self swaLint. {SwaLint. #open}}.
-	SwaLint debugMode: SLPreferences DebugMode.
+	self debugMode: SLPreferences DebugMode.
+	self registerPlugIn: SLPlugIn.
