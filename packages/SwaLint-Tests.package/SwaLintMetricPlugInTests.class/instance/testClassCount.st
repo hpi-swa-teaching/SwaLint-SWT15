@@ -9,4 +9,4 @@ testClassCount
 				addClass: (SLClassTestObject newFrom: (SLDummyClass04)).
 				
 
-	self assert: (testSystem resultOf: #classcount:) equals: 3
+	self assert: (testSystem resultOf: #classCount:) equals: 3

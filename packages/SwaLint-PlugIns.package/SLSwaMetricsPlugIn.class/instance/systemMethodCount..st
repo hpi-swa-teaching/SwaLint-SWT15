@@ -1,5 +1,5 @@
 tests
-methodcount: aSLSystemTestObject
+systemMethodCount: aSLSystemTestObject
 
 	<slTestName: 'Overall number of methods' 
 	description: nil >

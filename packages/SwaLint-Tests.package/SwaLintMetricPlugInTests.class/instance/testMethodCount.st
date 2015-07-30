@@ -8,4 +8,4 @@ testMethodCount
 				addClass: (SLClassTestObject newFrom: (SLDummyClass02));
 				addClass: (SLClassTestObject newFrom: (SLDummyClass03)).
 
-	self assert: (testSystem resultOf: #methodcount:) equals: 5.
+	self assert: (testSystem resultOf: #systemMethodCount:) equals: 5.

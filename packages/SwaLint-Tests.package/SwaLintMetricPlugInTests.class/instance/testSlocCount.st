@@ -8,4 +8,4 @@ testSlocCount
 				addClass: (SLClassTestObject newFrom: (SLDummyClass02));
 				addClass: (SLClassTestObject newFrom: (SLDummyClass03)).
 
-	self assert: (testSystem resultOf: #sloccount:) equals: 40.
+	self assert: (testSystem resultOf: #systemLocCount:) equals: 40.

@@ -1,5 +1,5 @@
 tests
-sloccount: aSLSystemTestObject
+systemLocCount: aSLSystemTestObject
 
 	<slTestName: 'Overall lines of code'
 	description: nil>

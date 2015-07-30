@@ -1,4 +1,4 @@
 accessing
 rootClasses
 
-	^allClasses select: [:class | self classIsRoot: class testObject]
+	^ allClasses select: [:class | self classIsRoot: class testObject]

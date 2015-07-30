@@ -2,7 +2,9 @@ tests
 csMethodHasDotAfterReturn: aSLMethodTestObject
 
 	<slTestName: nil
-	description: '(private) Test a single method for dotAfterReturn'>
+	description: 'Test a single method for dotAfterReturn'>
+	<slTestHidden: true
+	longRuntime: false>
 
 	| result |
 	aSLMethodTestObject shouldBeMethod.

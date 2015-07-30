@@ -1,5 +1,5 @@
 tests
-classcount: aSLSystemTestObject
+classCount: aSLSystemTestObject
 
 	<slTestName: 'Overall number of classes'
 	description: nil>

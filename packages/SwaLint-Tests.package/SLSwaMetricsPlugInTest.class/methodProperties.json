@@ -4,7 +4,6 @@
 	"instance" : {
 		"testBadlyFormattedMethods" : "TS 7/1/2015 11:51",
 		"testCommentedMethods" : "TS 7/1/2015 11:15",
-		"testDebugSnippets" : "TS 7/29/2015 00:17",
 		"testGlobalState" : "TS 7/1/2015 12:54",
 		"testInterestingMethods" : "TS 7/1/2015 13:23",
 		"testMetaProgramming" : "TS 7/1/2015 13:34",
