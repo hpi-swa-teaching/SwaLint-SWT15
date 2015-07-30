@@ -1,4 +1,0 @@
-accessing
-multiSelectionString
-
-	^ 'Multi select'

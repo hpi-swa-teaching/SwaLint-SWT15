@@ -2,13 +2,16 @@
 	"class" : {
 		"newWithResults:" : "NA 7/30/2015 11:05" },
 	"instance" : {
-		"buildEntries" : "NA 7/29/2015 18:48",
-		"buildMorphs" : "NA 7/29/2015 18:47",
+		"borderWidth" : "NA 7/30/2015 13:30",
+		"buildEntries" : "NA 7/30/2015 14:12",
+		"buildMorphs" : "NA 7/30/2015 14:13",
+		"defaultBackgroundColor" : "NA 7/30/2015 13:43",
 		"defaultMorphEntryHeight" : "NH 7/28/2015 11:43",
-		"defaultMorphEntryWidth" : "NH 7/28/2015 11:43",
-		"defaultMorphEntryWidthExtension" : "NH 7/28/2015 11:43",
+		"defaultMorphEntryWidth" : "NA 7/30/2015 13:48",
+		"defaultMorphEntryWidthExtension" : "NA 7/30/2015 13:49",
 		"formatSymbol:" : "NH 7/28/2015 13:41",
 		"getMainMorphCenterX" : "NH 7/28/2015 11:44",
-		"initialize" : "NH 7/28/2015 14:24",
+		"initialize" : "NA 7/30/2015 13:44",
+		"newRectangleMorph" : "NA 7/30/2015 13:53",
 		"results" : "NH 7/28/2015 13:06",
 		"results:" : "NH 7/28/2015 13:06" } }

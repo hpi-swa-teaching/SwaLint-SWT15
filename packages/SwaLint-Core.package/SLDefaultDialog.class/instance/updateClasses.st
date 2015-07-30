@@ -5,9 +5,5 @@ updateClasses
 	classesForCategories := self findClassesForSelectedCategories.
 	classes := classesForCategories asArray sorted: [ :first :second | first name <= second name ].
 	classIndex := 0.
-	classesSelected := classesSelected isNil
-		ifTrue: [ classesForCategories ]
-		ifFalse: [ 
-			classesSelected
-				select: [ :each | classesForCategories includes: each ]].
+	classesSelected := classesSelected select: [ :each | classesForCategories includes: each ].
 	self changed: #classList; changed: #classSelected.

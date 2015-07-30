@@ -2,10 +2,11 @@ overview-pyramid
 createOverviewPyramidMorph: aTool
 
 	overviewResults := (self results detect: 
-		[:each | (each testData symbol = #overviewPyramidMetric:) and:
-			((each isMemberOf: SLErrorResult)
+		[:each | (each testData notNil) and:
+			[each testData symbol = #overviewPyramidMetric:] and:
+			[(each isMemberOf: SLErrorResult)
 				ifFalse: [(each result notNil)]
-				ifTrue: [false])]
+				ifTrue: [false]]]
 		ifNone: SLResult new) result.
 
 	(overviewResults = nil)

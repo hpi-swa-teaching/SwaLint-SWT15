@@ -1,6 +1,6 @@
 accessing
 selectionButtonString
 
-	self isMultiSelectable 
-		ifTrue: [^ self singleSelectionString]
-		ifFalse: [^ self multiSelectionString]
+	^ self isMultiSelectable 
+		ifTrue: ['Single select']
+		ifFalse: ['Multi select']

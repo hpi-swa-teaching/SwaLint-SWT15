@@ -1,12 +1,12 @@
-as yet unclassified
+initialization
 createMorphFor: aString withValue: aValue andValForCalc: anotherValue andOffsetX: anInteger Y: anotherInteger addCalculation: aBoolean
 	| morph resultmorph namemorph calcmorph yPosition |
 
 	yPosition := (anotherInteger*self defaultMorphEntryHeight).
 
-	morph := RectangleMorph new.
-	morph extent: ((self defaultMorphEntryWidth)+(anInteger*(self defaultMorphEntryWidthExtension)))@(self defaultMorphEntryHeight).
-	morph position: ((self getMainMorphCenterX)+(self defaultMorphEntryWidth))@yPosition.
+	morph := self newRectangleMorph
+		extent: ((self defaultMorphEntryWidth)+(anInteger*(self defaultMorphEntryWidthExtension)))@(self defaultMorphEntryHeight);
+		position: ((self getMainMorphCenterX)+(self defaultMorphEntryWidth))@yPosition.
 	resultmorph := (TextMorph new contents: aValue asString).
 	morph addMorph: resultmorph.
 	resultmorph position: ((morph position x)+5)@yPosition.

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 buildDictionary
 
 	^ { #nop . #noc . #nom. #loc . #cyclo }

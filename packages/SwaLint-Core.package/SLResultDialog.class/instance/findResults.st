@@ -2,10 +2,6 @@ updating
 findResults
 
 	| resultsDict allTestObjects |
-	(classesSelected isNil or: 
-	testsSelected isNil or:
-	self environment isNil) ifTrue: [ ^ Set new ].
-
 	allTestObjects := self fetchAllTestObjects.
 	resultsDict := Dictionary new.
 

@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
+	self initializeInstanceVariables.
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #class change: #Added using: #update;
 		notify: self ofSystemChangesOfItem: #category change: #Added using: #update;
@@ -18,4 +19,3 @@ initialize
 		notify: self ofSystemChangesOfItem: #testCategory change: #Renamed using: #update;
 		notify: self ofSystemChangesOfItem: #test change: #Recategorized using: #update;
 		notify: self ofSystemChangesOfItem: #testCategory change: #Recategorized using: #update.
-	self update.

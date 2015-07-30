@@ -2,5 +2,5 @@ initialization
 initialize 
 
 	super initialize.
-	self color: Color white.
+	self color: self defaultBackgroundColor.
 	

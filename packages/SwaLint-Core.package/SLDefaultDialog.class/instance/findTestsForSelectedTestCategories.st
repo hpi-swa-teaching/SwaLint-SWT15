@@ -1,7 +1,6 @@
 updating
 findTestsForSelectedTestCategories
 	| items |
-	testCategoriesSelected isEmpty 
-		ifTrue: [ ^ Set new ].
+	testCategoriesSelected isEmpty ifTrue: [ ^ OrderedCollection new ].
 	items := testCategoriesSelected gather: [ :category | environment testsAtCategory: category ].
-	^ items asSet
+	^ items asOrderedCollection

@@ -1,9 +1,8 @@
 updating
 findClassesForSelectedCategories
 	| items |
-	categoriesSelected isEmpty 
-		ifTrue: [ ^ Set new ].
+	categoriesSelected isEmpty ifTrue: [ ^ OrderedCollection new ].
 	items := categoriesSelected gather: [ :category |
 		((Smalltalk organization listAtCategoryNamed: category)
 			collect: [ :each | Smalltalk at: each ])].
-	^ items asSet
+	^ items asOrderedCollection

@@ -4,6 +4,7 @@ selectNoTests
 	selection invalidation has been optimised."
 	
 	testsSelected := Set new.
+	descriptionCollection := OrderedCollection new.
 	self
 		changed: #testSelected;
 		changed: #runnable;
