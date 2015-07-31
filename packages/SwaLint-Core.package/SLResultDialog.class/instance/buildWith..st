@@ -1,17 +1,16 @@
 building
 buildWith: aBuilder
 	| window tool |
-	window := self buildWindowWith: aBuilder specs: {
+	window := self buildWindowWith: aBuilder specs:{
+		self buttonsFrame -> [self buildButtonsWith: aBuilder].
 		self categoriesFrame -> [self buildCategoriesWith: aBuilder].
 		self classesFrame -> [self buildClassesWith: aBuilder].
-		self testsFrame -> [self buildTestListWith: aBuilder].
 		self testCategoriesFrame -> [self buildTestCategoryListWith: aBuilder].
-		self resultsFrame -> [self buildResultsWith: aBuilder].
-		self buttonsFrame -> [self buildButtonsWith: aBuilder]
-		}.
+		self testsFrame -> [self buildTestListWith: aBuilder].
+		self resultsFrame -> [self buildResultsWith: aBuilder]}.
 
 	tool := aBuilder build: window.
 
 	Smalltalk isMorphic
 		ifTrue: [ self createOverviewPyramidMorph: tool ].
-	^tool
+	^ tool

@@ -1,23 +1,6 @@
 building
 buildResultsWith: aBuilder
 
-	^ Smalltalk isMorphic
+	^ (Smalltalk isMorphic)
 		ifFalse: [self buildResultsListWith: aBuilder]
-		ifTrue: [
-			resultPanel := aBuilder pluggablePanelSpec new
-				frame: self resultsFrame;
-				children: ({
-					(self buildResultsListWith: aBuilder)
-						frame: self resultsFrameInPanel;
-						yourself.
-					aBuilder pluggableScrollPaneSpec new
-						name: self overviewPyramidScrollPaneName;
-						frame: (self overviewPyramidScrollFrame);
-						children: ({
-							aBuilder pluggablePanelSpec new
-							name: self resultsPanelName;
-							frame: (self overviewPyramidFrame);
-							yourself.
-						});
-						yourself.
-			} as: OrderedCollection)]
+		ifTrue: [self buildResultsListForMorphicWith: aBuilder]

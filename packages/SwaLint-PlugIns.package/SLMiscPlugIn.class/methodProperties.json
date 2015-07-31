@@ -2,6 +2,7 @@
 	"class" : {
 		"defaultCategory" : "AT 5/8/2008 09:40" },
 	"instance" : {
+		"aSLPositiveResultDummyFor:" : "NA 7/31/2015 10:40",
 		"accessedVar:" : "JTM 5/27/2015 11:13",
 		"allAccessors:" : "JTM 5/26/2015 22:59",
 		"allPublicMethods:" : "JTM 5/27/2015 15:09",

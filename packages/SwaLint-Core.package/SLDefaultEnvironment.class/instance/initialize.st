@@ -6,7 +6,4 @@ initialize
 		initializeInstanceVariables;
 		addPlugIn: SLPlugIn;
 		fetchSystemClasses;
-		defaultClassCategories;
-		defaultClasses;
-		defaultTestCategories;
-		defaultTests.
+		loadDefaults.

@@ -1,4 +1,4 @@
 initialize-release
 defaultClasses
 	
-	classes :=  OrderedCollection new.
+	classes := OrderedCollection new.

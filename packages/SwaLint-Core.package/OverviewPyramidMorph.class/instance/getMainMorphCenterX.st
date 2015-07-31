@@ -1,4 +1,4 @@
 positioning
 getMainMorphCenterX
 
-	^ (self center x)+130
+	^ (self center x)+140

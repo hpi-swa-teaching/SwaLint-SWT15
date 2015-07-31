@@ -2,8 +2,7 @@ private
 methodHasNoSender: aSLMethodTestObject
 
 	<slTestHidden: true
-	longRuntime: nil>
+	longRuntime: false>
 
 	aSLMethodTestObject shouldBeMethod.
-	^ self booleanResult: (aSLMethodTestObject parent testObject allUnsentMessages
-		includes: (aSLMethodTestObject methodSelector))
+	^ self booleanResult: (self systemNavigation allCallsOn: (aSLMethodTestObject methodSelector)) isEmpty
